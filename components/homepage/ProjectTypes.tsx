@@ -34,20 +34,20 @@ Our Structural & Civil Engineers' expertise in providing Engineering Services ex
 <div class="row">
 <div class="col-md-6">
 <ul>
-\t<li><img src="/images/icon.svg" name="icon" /> New Custom Home</li>
-\t<li><img src="/images/icon.svg" name="icon" />ADU</li>
-\t<li><img src="/images/icon.svg" name="icon" />Home Addition/Remodel</li>
-\t<li><img src="/images/icon.svg" name="icon" />Load Bearing Wall Removal</li>
-\t<li><img src="/images/icon.svg" name="icon" />Commercial Projects</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="New Custom Home" /> New Custom Home</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="ADU" />ADU</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Home Addition/Remodel" />Home Addition/Remodel</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Load Bearing Wall Removal" />Load Bearing Wall Removal</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Commercial Projects" />Commercial Projects</li>
 </ul>
 </div>
 <div class="col-md-6">
 <ul>
-\t<li><img src="/images/icon.svg" name="icon" />Retaining Wall</li>
-\t<li><img src="/images/icon.svg" name="icon" />Deck, Patio & Porch</li>
-\t<li><img src="/images/icon.svg" name="icon" />Foundation Design & More</li>
-\t<li><img src="/images/icon.svg" name="icon" />Construction Administration</li>
-\t<li><img src="/images/icon.svg" name="icon" />Civil Engineering</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Retaining Wall" />Retaining Wall</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Deck, Patio & Porch" />Deck, Patio & Porch</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Foundation Design & More" />Foundation Design & More</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Construction Administration" />Construction Administration</li>
+\t<li><img src="/images/icon.svg" name="icon" alt="Civil Engineering" />Civil Engineering</li>
 </ul>
 </div>
 </div>`;
