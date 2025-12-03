@@ -8,7 +8,7 @@ export default function Page() {
           </div>
           
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Explore Structural Engineer Cost &#038; Turnaround<br>Estimates For Our Services In California
+            Explore Structural Engineer Cost &#038; Turnaround<br />Estimates For Our Services In California
           </h1>
           
           <div className="space-y-4 text-gray-600">
@@ -29,3 +29,4 @@ export default function Page() {
     </div>
   );
 }
+

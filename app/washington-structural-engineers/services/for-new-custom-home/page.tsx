@@ -8,7 +8,7 @@ export default function Page() {
           </div>
           
           <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Our Structural Engineers For<br> Your New Custom Home
+            Our Structural Engineers For<br /> Your New Custom Home
           </h1>
           
           <div className="space-y-4 text-gray-600">
@@ -29,3 +29,4 @@ export default function Page() {
     </div>
   );
 }
+
