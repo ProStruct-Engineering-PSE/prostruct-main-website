@@ -1,17 +1,14 @@
-const STATE_SLUGS = [
-  "california-structural-engineers",
-  "washington-structural-engineers",
-  "oregon-structural-engineers",
-  "colorado-structural-engineers",
-  "nevada-structural-engineers",
-  "utah-structural-engineers",
-  "texas-structural-engineers",
-  "georgia-structural-engineers",
-  "arizona-structural-engineers",
-  "idaho-structural-engineers",
-] as const;
-
-export type StateSlug = (typeof STATE_SLUGS)[number];
+export type StateSlug =
+  | "california-structural-engineers"
+  | "washington-structural-engineers"
+  | "oregon-structural-engineers"
+  | "colorado-structural-engineers"
+  | "nevada-structural-engineers"
+  | "utah-structural-engineers"
+  | "texas-structural-engineers"
+  | "georgia-structural-engineers"
+  | "arizona-structural-engineers"
+  | "idaho-structural-engineers";
 
 interface HeroContent {
   desktopHtml: string;

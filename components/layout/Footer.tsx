@@ -9,11 +9,13 @@ import { useModal } from "@/components/shared/ModalProvider";
 const FOOTER_LOGO_URL = "/images/new-logo.svg";
 const FOOTER_BG_IMAGE = "/images/footer-bg.png";
 
-const FOOTER_DESCRIPTION = `Our structural & civil engineers offer dependable professional engineering services for residential and commercial building permits at reasonable prices. Trust us to deliver high-quality structural & civil plans.`;
+const FOOTER_DESCRIPTION =
+  "Our structural & civil engineers offer dependable professional engineering services for residential and commercial building permits at reasonable prices. Trust us to deliver high-quality structural & civil plans.";
 
 const COPYRIGHT_TEXT = "© 2025 ProStruct Engineering Inc. All Rights Reserved.";
 
-const FOOTER_DISCLAIMER = `(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.`;
+const FOOTER_DISCLAIMER =
+  "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.";
 
 // Default footer menu (column 1)
 const FOOTER_MENU_1 = [
@@ -223,10 +225,7 @@ export function Footer() {
               />
             </Link>
 
-            <p
-              className="text-light"
-              dangerouslySetInnerHTML={{ __html: FOOTER_DESCRIPTION }}
-            />
+            <p className="text-light">{FOOTER_DESCRIPTION}</p>
           </div>
 
           {/* Explore Menu */}
@@ -340,14 +339,11 @@ export function Footer() {
           {isStateHomepage && (
             <div className="o-footer__bar">
               <div className="container">
-                <p dangerouslySetInnerHTML={{ __html: FOOTER_DISCLAIMER }} />
+                <p>{FOOTER_DISCLAIMER}</p>
               </div>
             </div>
           )}
-          <p
-            className="text-center"
-            dangerouslySetInnerHTML={{ __html: COPYRIGHT_TEXT }}
-          />
+          <p className="text-center">{COPYRIGHT_TEXT}</p>
         </div>
       </div>
     </footer>

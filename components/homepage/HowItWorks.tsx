@@ -14,8 +14,12 @@ const STEPS = [
       width: 305,
       height: 224,
     },
-    details:
-      "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+    details: (
+      <>
+        Share Your <span>Requirements</span>, Including Existing Plans/ Designs
+        if Available
+      </>
+    ),
   },
   {
     image: {
@@ -24,8 +28,14 @@ const STEPS = [
       width: 305,
       height: 224,
     },
-    details:
-      "Get a <span>No-obligation</span>,<br/>Free Express Quote<br/>Within 24 Hours",
+    details: (
+      <>
+        Get a <span>No-obligation</span>,<br />
+        Free Express Quote
+        <br />
+        Within 24 Hours
+      </>
+    ),
   },
   {
     image: {
@@ -34,8 +44,12 @@ const STEPS = [
       width: 305,
       height: 224,
     },
-    details:
-      "We Start Your Project, With <br/><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+    details: (
+      <>
+        We Start Your Project, With <br />
+        <span>Quick Delivery</span> in 2-3 Weeks for Most Projects
+      </>
+    ),
   },
 ];
 
@@ -67,7 +81,7 @@ export function HowItWorks() {
                       {count}
                     </span>
                   </figure>
-                  <h6 dangerouslySetInnerHTML={{ __html: step.details }} />
+                  <h6>{step.details}</h6>
                 </div>
               </div>
             );

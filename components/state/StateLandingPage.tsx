@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 import { useModal } from "@/components/shared/ModalProvider";
 import ContactForm from "@/components/shared/ContactForm";
+import parse from "html-react-parser";
 import { StateLandingContent } from "./stateLandingData";
 
 import "swiper/css";
@@ -134,14 +135,11 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
       <section className="c-banner position-relative">
         <div className="c-banner-caption">
           <div className="container d-flex align-items-center">
-            <div
-              className="c-banner-caption__inner"
-              dangerouslySetInnerHTML={{
-                __html: isMobile
-                  ? content.hero.mobileHtml
-                  : content.hero.desktopHtml,
-              }}
-            />
+            <div className="c-banner-caption__inner">
+              {parse(
+                isMobile ? content.hero.mobileHtml : content.hero.desktopHtml
+              )}
+            </div>
           </div>
         </div>
 
@@ -170,12 +168,9 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
         {isMobile && content.hero.mobileBottomHtml && (
           <div className="c-banner-caption">
             <div className="container d-flex align-items-center">
-              <div
-                className="c-banner-caption__inner"
-                dangerouslySetInnerHTML={{
-                  __html: content.hero.mobileBottomHtml,
-                }}
-              />
+              <div className="c-banner-caption__inner">
+                {parse(content.hero.mobileBottomHtml)}
+              </div>
             </div>
           </div>
         )}
@@ -224,11 +219,7 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
                 {content.reasons.map((reason) => (
                   <div className="col-lg-6 mb-2" key={reason.heading}>
                     <h5>{reason.heading}</h5>
-                    <div
-                      dangerouslySetInnerHTML={{
-                        __html: reason.descriptionHtml,
-                      }}
-                    />
+                    <div>{parse(reason.descriptionHtml)}</div>
                   </div>
                 ))}
               </div>
@@ -260,18 +251,10 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
           >
             <h2>{content.aboutHeading}</h2>
             <div className="c-structure-service-desktop">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: content.aboutDesktopHtml,
-                }}
-              />
+              <div>{parse(content.aboutDesktopHtml)}</div>
             </div>
             <div className="c-structure-service-mobile">
-              <div
-                dangerouslySetInnerHTML={{
-                  __html: content.aboutMobileHtml,
-                }}
-              />
+              <div>{parse(content.aboutMobileHtml)}</div>
             </div>
           </div>
         </div>
@@ -307,12 +290,9 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
             </div>
             <div className="col-lg-6">
               <h2>{content.projectTypes.heading}</h2>
-              <div
-                className="mb-3"
-                dangerouslySetInnerHTML={{
-                  __html: content.projectTypes.introHtml,
-                }}
-              />
+              <div className="mb-3">
+                {parse(content.projectTypes.introHtml)}
+              </div>
               <div className="row">
                 {content.projectTypes.columns.map((column, columnIndex) => (
                   <div className="col-md-6" key={`column-${columnIndex}`}>
@@ -375,7 +355,7 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
                         {index + 1}
                       </span>
                     </figure>
-                    <h6 dangerouslySetInnerHTML={{ __html: detailsHtml }} />
+                    <h6>{parse(detailsHtml)}</h6>
                   </div>
                 </div>
               );

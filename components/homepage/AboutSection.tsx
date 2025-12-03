@@ -7,16 +7,41 @@ const HEADING = "Our Engineering Services";
 
 const BACKGROUND_IMAGE = "/images/service-bg.png";
 
-const CONTENT_DESKTOP = `ProStruct Engineering's experienced team of <strong>Professional Structural & Civil Engineers</strong> provides <strong>high-quality
-engineering</strong> plans that comply with building permit requirements for residential & Commercial projects.
+const CONTENT_DESKTOP = [
+  <>
+    ProStruct Engineering&apos;s experienced team of{" "}
+    <strong>Professional Structural &amp; Civil Engineers</strong> provides{" "}
+    <strong>high-quality engineering</strong> plans that comply with building
+    permit requirements for residential &amp; commercial projects.
+  </>,
+  <>
+    Our goal is to offer <strong>budget-friendly</strong> services and act as a
+    dependable ally throughout the process.
+  </>,
+  <>
+    Our services include{" "}
+    <strong>
+      Structural and Civil Site Inspections, Structural and Civil Calculations
+    </strong>
+    , creating <strong>Structural and Civil Plans</strong> and preparing{" "}
+    <strong>Structural and Civil Engineering Plans.</strong>
+  </>,
+];
 
-Our goal is to offer <strong>budget-friendly</strong> services and act as a dependable ally throughout the process.
-
-Our services include <strong>Structural and Civil Site Inspections, Structural and Civil Calculations,</strong> creating <strong>Structural and Civil Plans </strong>and preparing <strong>Structural and Civil Engineering Plans.</strong>`;
-
-const CONTENT_MOBILE = `Our services include <strong>Structural and Civil Site Inspections, Structural and Civil Calculations,</strong> creating <strong>Structural and Civil Plans </strong>and preparing <strong>Structural and Civil Engineering Plans.</strong>
-
-Our goal is to offer <strong>budget-friendly</strong> services and acting as a dependable ally throughout the process.`;
+const CONTENT_MOBILE = [
+  <>
+    Our services include{" "}
+    <strong>
+      Structural and Civil Site Inspections, Structural and Civil Calculations
+    </strong>
+    , creating <strong>Structural and Civil Plans</strong> and preparing{" "}
+    <strong>Structural and Civil Engineering Plans.</strong>
+  </>,
+  <>
+    Our goal is to offer <strong>budget-friendly</strong> services and act as a
+    dependable ally throughout the process.
+  </>,
+];
 
 export function AboutSection() {
   const [isMobile, setIsMobile] = useState(false);
@@ -40,14 +65,18 @@ export function AboutSection() {
           {/* Desktop Version */}
           {!isMobile && (
             <div className="c-structure-service-desktop">
-              <p dangerouslySetInnerHTML={{ __html: CONTENT_DESKTOP }} />
+              {CONTENT_DESKTOP.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             </div>
           )}
 
           {/* Mobile Version */}
           {isMobile && (
             <div className="c-structure-service-mobile">
-              <p dangerouslySetInnerHTML={{ __html: CONTENT_MOBILE }} />
+              {CONTENT_MOBILE.map((paragraph, index) => (
+                <p key={index}>{paragraph}</p>
+              ))}
             </div>
           )}
         </div>

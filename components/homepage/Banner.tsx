@@ -7,7 +7,6 @@ import { Pagination, Autoplay } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 
-// Embedded banner data from WordPress
 const BANNER_SLIDES = [
   {
     url: "/images/Banner1-1.jpg",
@@ -35,18 +34,49 @@ const BANNER_SLIDES = [
   },
 ];
 
-const BANNER_CONTENT = `<h1>Our Experienced Structural & Civil Engineers for your <strong>Residential & Commercial </strong>Project Needs</h1>
-<span class="mbl-hide">At ProStruct Engineering we take pride in professionalism.</span> Our motivation is to improve Homeowners' home-building experience by delivering high-quality Structural & Civil Engineering Plans for permit approval smoothly.
-We have a 100% success rate<sup>(1)</sup> in obtaining Residential & Commercial Building Permits.
+const DESKTOP_CONTENT = (
+  <>
+    <h1>
+      Our Experienced Structural & Civil Engineers for your{" "}
+      <strong>Residential & Commercial</strong> Project Needs
+    </h1>
+    <span className="mbl-hide">
+      At ProStruct Engineering we take pride in professionalism.
+    </span>
+    <p>
+      Our motivation is to improve Homeowners&apos; home-building experience by
+      delivering high-quality Structural & Civil Engineering Plans for permit
+      approval smoothly.
+    </p>
+    <p>
+      We have a 100% success rate<sup>(1)</sup> in obtaining Residential &
+      Commercial Building Permits.
+    </p>
+    <p>We’re experienced, reliable, and budget-friendly.</p>
+  </>
+);
 
-We're experienced, reliable, and budget-friendly.`;
+const MOBILE_CONTENT = (
+  <h1>
+    Our Experienced <strong>Structural & Civil Engineers</strong> for your{" "}
+    <strong>Residential & Commercial</strong> Project Needs
+  </h1>
+);
 
-const BANNER_CONTENT_MOBILE = `<h1>Our Experienced <strong>Structural & Civil Engineers</strong> for your <strong>Residential & Commercial </strong> Project Needs</h1>`;
-
-const BANNER_BOTTOM_MOBILE = `Our motivation is to improve Homeowners' home-building experience by delivering high-quality Structural Engineering Plans for permit approval smoothly.
-We have a 100% success rate<sup>(1)</sup> in obtaining Residential & Commercial Building Permits.
-
-We're experienced, reliable, and budget-friendly.`;
+const MOBILE_BOTTOM_CONTENT = (
+  <>
+    <p>
+      Our motivation is to improve Homeowners&apos; home-building experience by
+      delivering high-quality Structural Engineering Plans for permit approval
+      smoothly.
+    </p>
+    <p>
+      We have a 100% success rate<sup>(1)</sup> in obtaining Residential &
+      Commercial Building Permits.
+    </p>
+    <p>We’re experienced, reliable, and budget-friendly.</p>
+  </>
+);
 
 export function Banner() {
   const [isMobile, setIsMobile] = useState(false);
@@ -58,21 +88,16 @@ export function Banner() {
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const activeContent = isMobile ? BANNER_CONTENT_MOBILE : BANNER_CONTENT;
-
   return (
     <div className="c-banner position-relative">
-      {/* Banner Caption */}
       <div className="c-banner-caption">
         <div className="container d-flex align-items-center">
-          <div
-            className="c-banner-caption__inner"
-            dangerouslySetInnerHTML={{ __html: activeContent }}
-          />
+          <div className="c-banner-caption__inner">
+            {isMobile ? MOBILE_CONTENT : DESKTOP_CONTENT}
+          </div>
         </div>
       </div>
 
-      {/* Banner Slider */}
       <Swiper
         modules={[Pagination, Autoplay]}
         pagination={{ clickable: true }}
@@ -81,7 +106,7 @@ export function Banner() {
         className="c-banner-slider"
       >
         {BANNER_SLIDES.map((slide, index) => (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={slide.url}>
             <Image
               src={slide.url}
               alt={slide.alt}
@@ -95,14 +120,12 @@ export function Banner() {
         ))}
       </Swiper>
 
-      {/* Mobile Bottom Content */}
       {isMobile && (
         <div className="c-banner-caption">
           <div className="container d-flex align-items-center">
-            <div
-              className="c-banner-caption__inner"
-              dangerouslySetInnerHTML={{ __html: BANNER_BOTTOM_MOBILE }}
-            />
+            <div className="c-banner-caption__inner">
+              {MOBILE_BOTTOM_CONTENT}
+            </div>
           </div>
         </div>
       )}
