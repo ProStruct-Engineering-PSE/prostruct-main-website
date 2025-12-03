@@ -1,5 +1,5 @@
 {
-  "name": "wordpress-pages-fetcher",
+  "name": "prostruct-nextjs",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -21,6 +21,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.0.6",
     "tailwindcss": "^4",
+    "tsx": "^4.7.0",
     "typescript": "^5"
   }
 }
