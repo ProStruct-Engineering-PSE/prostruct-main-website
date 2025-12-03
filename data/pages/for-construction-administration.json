@@ -1,0 +1,52 @@
+{
+  "page_id": "6040",
+  "title": "Structural Engineers for <br> Construction Admin.",
+  "slug": "for-construction-administration",
+  "template": "service-state-home-addition-remodel",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/services/for-construction-administration/",
+  "featured_media": "5978",
+  "acf": {
+    "add_adu_type_lists": [
+      {
+        "content": "Our Structural engineers can review and respond to RFIs, formal inquiries by contractors and other stakeholders seeking clarification on construction plans or specifications, as part of Construction Administration services. This ensures all parties have the information they need to complete their work.",
+        "heading": "Requests for Information (RFI)"
+      },
+      {
+        "content": "Substitution Requests are changes proposed by contractors or vendors to the original plans or materials for a construction project. Our structural engineers can review and evaluate the requests to determine if they meet project requirements and standards. If approved, the engineer will update the plans and specifications as part of Construction Administration.",
+        "heading": "Substitution Requests"
+      },
+      {
+        "content": "Structural engineers review proposed submittals from contractors or vendors to ensure they meet project requirements and design specifications, and comply with relevant codes and standards. This is done as part of a Submittal Review, which evaluates items like product data, samples, or shop drawings.",
+        "heading": "Submittal Reviews"
+      },
+      {
+        "content": "Structural Observations are a crucial part of Construction Administration, involving regular site visits by structural engineers to inspect construction work and ensure compliance with the approved plans and building codes. These observations help identify and address any issues, ensuring that the project meets safety, durability, and quality requirements",
+        "heading": "Structural Observations"
+      }
+    ],
+    "banner_content": "Our structural engineers can guide and advise you throughout the construction process. Our Construction Administration services include responding to <strong>Requests for Information (RFI)</strong>, performing <strong>Submittal Reviews</strong>, addressing <strong>Substitution Requests</strong>, and conducting <strong>Structural Observations</strong>. Our engineers inspect the work to ensure compliance with relevant building codes and regulations and promptly address any unanticipated structural concerns during construction.",
+    "footer_parallax_image": "173",
+    "hide_what_we_do_section": "1",
+    "pyramid_image": "235",
+    "right_image": "621",
+    "section_content_get_started": "<p>Schedule a <strong>Free Consultation</strong> With One of Our <strong>Expert Structural Engineers</strong> for <strong>Construction Administration</strong> support for your <strong>Home</strong>.<p>\r\n\r\n<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\" class=\"btn c-get-quote-btn\"><strong>CONTACT US TODAY <i class=\"fa-solid fa-chevron-right\"></i></strong></a>",
+    "section_heading_and_content": "<h2 class=\"text-center\">Construction Administration Services</h2>\r\n<p class=\"text-center\"><strong>Our structural engineers can guide and advise you throughout the construction process. Our Construction Administration services include:</strong></p>",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br>Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "<span>We Start</span> Addressing Your Construction Administration <span>Request Right Away!</span>",
+        "step_image": "472"
+      }
+    ]
+  }
+}

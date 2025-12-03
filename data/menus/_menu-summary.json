@@ -1,0 +1,331 @@
+{
+  "extracted_date": "2025-12-03T02:25:06.153Z",
+  "total_menus": 65,
+  "menus": [
+    {
+      "slug": "footer_menu_2_state",
+      "file": "footer_menu_2_state.json",
+      "items_count": 5
+    },
+    {
+      "slug": "header_menu",
+      "file": "header_menu.json",
+      "items_count": 3
+    },
+    {
+      "slug": "test",
+      "file": "test.json",
+      "items_count": 1
+    },
+    {
+      "slug": "oregon_menu",
+      "file": "oregon_menu.json",
+      "items_count": 1
+    },
+    {
+      "slug": "footer_menu_cs_1",
+      "file": "footer_menu_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_ca_cs_1",
+      "file": "footer_menu_ca_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_or_cs_1",
+      "file": "footer_menu_or_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_wa_cs_1",
+      "file": "footer_menu_wa_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_co_cs_1",
+      "file": "footer_menu_co_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_az_cs_1",
+      "file": "footer_menu_az_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_tx_cs_1",
+      "file": "footer_menu_tx_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_nv_cs_1",
+      "file": "footer_menu_nv_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_cs_2",
+      "file": "footer_menu_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ca_cs_2",
+      "file": "footer_menu_ca_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ut_cs_1",
+      "file": "footer_menu_ut_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_ga_cs_1",
+      "file": "footer_menu_ga_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "header_state_ga",
+      "file": "header_state_ga.json",
+      "items_count": 4
+    },
+    {
+      "slug": "footer_menu_or_cs_2",
+      "file": "footer_menu_or_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ga_cs_2",
+      "file": "footer_menu_ga_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_wa_cs_2",
+      "file": "footer_menu_wa_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_co_cs_2",
+      "file": "footer_menu_co_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_az_cs_2",
+      "file": "footer_menu_az_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_tx_cs_2",
+      "file": "footer_menu_tx_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_nv_cs_2",
+      "file": "footer_menu_nv_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_1",
+      "file": "footer_menu_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_2",
+      "file": "footer_menu_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_ut_cs_2",
+      "file": "footer_menu_ut_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ca_1",
+      "file": "footer_menu_ca_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_or_1",
+      "file": "footer_menu_or_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ca_2",
+      "file": "footer_menu_ca_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_or_2",
+      "file": "footer_menu_or_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_wa_1",
+      "file": "footer_menu_wa_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_wa_2",
+      "file": "footer_menu_wa_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_co_1",
+      "file": "footer_menu_co_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_co_2",
+      "file": "footer_menu_co_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_az_1",
+      "file": "footer_menu_az_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_nv_1",
+      "file": "footer_menu_nv_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_az_2",
+      "file": "footer_menu_az_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_tx_1",
+      "file": "footer_menu_tx_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_tx_2",
+      "file": "footer_menu_tx_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_nv_2",
+      "file": "footer_menu_nv_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_ut_1",
+      "file": "footer_menu_ut_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ut_2",
+      "file": "footer_menu_ut_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_ga_1",
+      "file": "footer_menu_ga_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_ga_2",
+      "file": "footer_menu_ga_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_mx_1",
+      "file": "footer_menu_mx_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_mx_2",
+      "file": "footer_menu_mx_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_mx_cs_1",
+      "file": "footer_menu_mx_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_mx_cs_2",
+      "file": "footer_menu_mx_cs_2.json",
+      "items_count": 7
+    },
+    {
+      "slug": "header_state",
+      "file": "header_state.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_az",
+      "file": "header_state_az.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_mobile",
+      "file": "header_state_mobile.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_co",
+      "file": "header_state_co.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_mx",
+      "file": "header_state_mx.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_nv",
+      "file": "header_state_nv.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_or",
+      "file": "header_state_or.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_tx",
+      "file": "header_state_tx.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_ut",
+      "file": "header_state_ut.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_ca",
+      "file": "header_state_ca.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_wa",
+      "file": "header_state_wa.json",
+      "items_count": 4
+    },
+    {
+      "slug": "header_state_id",
+      "file": "header_state_id.json",
+      "items_count": 4
+    },
+    {
+      "slug": "footer_menu_id_1",
+      "file": "footer_menu_id_1.json",
+      "items_count": 7
+    },
+    {
+      "slug": "footer_menu_id_2",
+      "file": "footer_menu_id_2.json",
+      "items_count": 6
+    },
+    {
+      "slug": "footer_menu_id_cs_1",
+      "file": "footer_menu_id_cs_1.json",
+      "items_count": 5
+    },
+    {
+      "slug": "footer_menu_id_cs_2",
+      "file": "footer_menu_id_cs_2.json",
+      "items_count": 7
+    }
+  ]
+}

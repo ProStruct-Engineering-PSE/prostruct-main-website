@@ -1,0 +1,115 @@
+{
+  "page_id": "3365",
+  "title": "Residential Structural Engineers, Texas | ProStruct Engineering",
+  "slug": "texas-structural-engineers",
+  "template": "home-page-state",
+  "url": "https://prostructengineering.com/texas-structural-engineers/",
+  "featured_media": "0",
+  "acf": {
+    "add_contact_details": "<ul>\r\n        <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>8390 E Via De Ventura, Suite F-110<br>Scottsdale, AZ 85258</li>\r\n        <li><i class=\"fas fa-phone\" aria-hidden=\"true\"></i><a href=\"tel:+1 844-750-0773\">+1 844-750-0773</a> | <a href=\"tel:+1 6509771073\">+1 650-977-10731</a</li>\r\n</ul>\r\n",
+    "add_contact_details_state": "<ul>\r\n        <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>8390 E Via De Ventura, Suite F-110<br>Scottsdale, AZ 85258</li>\r\n        <li><i class=\"fas fa-phone\" aria-hidden=\"true\"></i><a href=\"tel:+1 844-750-0773\">+1 844-750-0773</a> | <a href=\"tel:+1 6509771073\">+1 650-977-10731</a</li>\r\n</ul>\r\n",
+    "add_social": [
+      {
+        "social_icon_class": "<i class=\"fab fa-instagram\"></i>",
+        "social_link": "https://instagram.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-twitter\"></i>",
+        "social_link": "https://twitter.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-facebook-f\"></i>",
+        "social_link": "https://facebook.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-linkedin\"></i>",
+        "social_link": "https://linkedin.com.com"
+      }
+    ],
+    "banner_bottom_content_mobile": "<span style=\"font-weight: 400;\">At ProStruct Engineering, we specialize in delivering professional structural engineering solutions tailored to </span><b>commercial projects across Texas</b><span style=\"font-weight: 400;\">. Our mission is to streamline your commercial project—from office buildings to retail spaces—with high-quality structural plans optimized for permits and compliance.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">With our depth of expertise and trusted reputation, your commercial projects are in capable hands.</span>",
+    "banner_content": "<h1><b>Trusted Structural Engineers for Your Commercial &amp; Residential Project Needs</b></h1>\r\n<span style=\"font-weight: 400;\">At ProStruct Engineering, we specialize in delivering professional structural engineering solutions tailored to </span><b>commercial projects across Texas</b><span style=\"font-weight: 400;\">. Our mission is to streamline your commercial project—from office buildings to retail spaces—with high-quality structural plans optimized for permits and compliance.</span><span style=\"font-weight: 400;\">\r\n</span><span style=\"font-weight: 400;\">With our depth of expertise and trusted reputation, your commercial projects are in capable hands.</span>",
+    "banner_content_mobile": "<h1><b>Trusted Structural Engineers for Your Commercial &amp; Residential Project Needs</b></h1>",
+    "banner_slider": [
+      {
+        "upload_slider_image": "163"
+      },
+      {
+        "upload_slider_image": "164"
+      },
+      {
+        "upload_slider_image": "162"
+      },
+      {
+        "upload_slider_image": "3198"
+      }
+    ],
+    "contact_widget_heading": "Contact information",
+    "copyright_text": "© 2024 ProStruct Engineering Inc. All Rights Reserved.",
+    "footer_background_image": "75",
+    "footer_bottom_content": "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.",
+    "footer_logo": "7",
+    "footer_site_description": "Our structural engineers offer dependable professional structural engineering services for residential building permits at reasonable prices. Trust us to deliver high-quality structural plans.",
+    "footer_top_image": "173",
+    "info_image": "1591",
+    "nav_button_label": "Contact Us",
+    "nav_button_link": "https://prostructengineering.com/contact-us/",
+    "permit_guarantee_page_link_page_link": "5356",
+    "project_type_images": [
+      {
+        "upload_image": "166"
+      },
+      {
+        "upload_image": "167"
+      },
+      {
+        "upload_image": "178"
+      }
+    ],
+    "reasons": [
+      {
+        "description": "<ul>\r\n \t<li>35+ Years</li>\r\n \t<li>3,000+ Projects</li>\r\n \t<li><span style=\"font-weight: 400;\">Office, Retail, Warehouses, and more</span></li>\r\n</ul>",
+        "heading": "Experienced"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Local Pricing</li>\r\n \t<li>Fixed &amp; Transparent</li>\r\n \t<li>No Surprises</li>\r\n</ul>",
+        "heading": "Budget-friendly"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Texas PE License</li>\r\n \t<li>Insured</li>\r\n</ul>",
+        "heading": "Licensed & Insured"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Proactive &amp; Responsive</li>\r\n \t<li>Quick Turnaround</li>\r\n</ul>",
+        "heading": "Responsive & Fast"
+      },
+      {
+        "description": "<ul>\r\n \t<li><strong>Our Core Values:</strong> Integrity, Responsibility, Reliability, Ethics, And Maintaining The Highest Quality Standards For Structural Plans</li>\r\n \t<li>Adhering To These Standards Has Helped Us Build Trust And Credibility With Our Clients</li>\r\n</ul>",
+        "heading": "Professionalism"
+      }
+    ],
+    "section_background_image": "43",
+    "section_content_about_us": "ProStruct Engineering’s experienced team of <strong>Professional Structural &amp; Civil Engineers</strong> provides <strong>high-quality\r\nengineering</strong> plans that comply with building permit requirements for residential &amp; Commercial projects.\r\n\r\nOur goal is to offer <strong>budget-friendly</strong> services and act as a dependable ally throughout the process.\r\n\r\nOur services include <strong>Structural Site Inspections, Structural Calculations,</strong> creating <strong>Structural Plans,</strong>\r\nand preparing <strong>Structural Permit Sets, and Civil Engineering Plans.</strong>",
+    "section_content_about_us_mobile": "Our services include <strong>Structural Site Inspections, Structural Calculations,</strong> creating <strong>Structural Plans,</strong>\r\nand preparing <strong>Structural Permit Sets and Civil Engineering Plans.</strong>\r\n\r\nOur goal is to offer <strong>budget-friendly</strong> services and acting as a dependable ally throughout the process.",
+    "section_content_pt": "<h2>Project Types</h2>\r\n<span style=\"font-weight: 400;\">We bring structural &amp; civil engineering solutions to a broad range of commercial project types:</span>\r\n<div class=\"row\">\r\n  <div class=\"col-md-6\">\r\n    <ul>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Ground-Up Commercial Construction</li>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Tenant Improvements</li>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Office Buildings</li>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Retail Spaces</li>\r\n    </ul>\r\n  </div>\r\n  <div class=\"col-md-6\">\r\n    <ul>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Warehouses &amp; Industrial Facilities</li>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Data Centers</li>\r\n      <li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" alt=\"icon\" /> Mixed-Use Developments</li>\r\n    </ul>\r\n  </div>\r\n</div>\r\n<a class=\"btn c-get-quote-btn\" href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\">GET YOUR FREE QUOTE <i class=\"fa-solid fa-chevron-right\"></i></a>",
+    "section_heading_about_us": "Our Engineering Services",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "section_heading_wcu": "Why Choose Us?",
+    "select_form": "hubshotens",
+    "social_visibility": "Hide",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "169"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br/>Free Express Quote<br/>Within 24 Hours",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br/><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "tag_line": "Professional Structural & Civil Engineers"
+  }
+}

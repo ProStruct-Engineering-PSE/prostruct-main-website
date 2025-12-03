@@ -1,0 +1,42 @@
+{
+  "page_id": "418",
+  "title": "Professional Fee<br>Secure Payment Options",
+  "slug": "payments",
+  "template": "service-payments",
+  "url": "https://prostructengineering.com/california-structural-engineers/services/payments/",
+  "featured_media": "231",
+  "acf": {
+    "first_payment_method": [
+      {
+        "link": "#",
+        "logo": "425"
+      }
+    ],
+    "other_payment_methods": [
+      {
+        "link": "#",
+        "logo": "434"
+      },
+      {
+        "link": "#",
+        "logo": "433"
+      },
+      {
+        "link": "#",
+        "logo": "432"
+      },
+      {
+        "link": "#",
+        "logo": "431"
+      },
+      {
+        "link": "#",
+        "logo": "432"
+      },
+      {
+        "link": "#",
+        "logo": "435"
+      }
+    ]
+  }
+}

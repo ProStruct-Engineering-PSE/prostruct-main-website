@@ -1,0 +1,54 @@
+{
+  "page_id": "6032",
+  "title": "Structural Engineer for <br> Outdoor Living Spaces",
+  "slug": "for-deck-patio-porch-gazebo",
+  "template": "service-state-home-addition-remodel",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/services/for-deck-patio-porch-gazebo/",
+  "featured_media": "5978",
+  "acf": {
+    "add_adu_type_lists": [
+      {
+        "content": "A Deck is a raised platform for outdoor living and dining and can be attached to a home or freestanding to be used for various activities. It is typically made of wood or composite materials and can come in various sizes and shapes.",
+        "heading": "Decks"
+      },
+      {
+        "content": "Patio is a ground-level outdoor space that can be made of various materials such as concrete, pavers, or natural stone. It is usually designed to be used for outdoor activities like dining, entertaining, and relaxation. Patio too can be built in different shapes and sizes to accommodate different needs and preferences.",
+        "heading": "Patio"
+      },
+      {
+        "content": "Porch is a covered area at the entrance of a house. It is designed to provide additional living space and can be used for various purposes, such as socializing, reading, or relaxation. A porch can be enclosed or open-air and can be built in different styles and sizes to match the architecture of your home.",
+        "heading": "Porch"
+      },
+      {
+        "content": "A pergola is an outdoor structure featuring an open framework, with vertical posts or columns supporting cross-beams and an open lattice or grid roof. It offers partial shade and adds aesthetic appeal to gardens or outdoor spaces. Gazebos, with fully enclosed roofs and open sides, provide sheltered areas for relaxation and enjoyment.",
+        "heading": "Pergola & Gazebo"
+      }
+    ],
+    "banner_content": "<strong>Decks, Patios, Porches, Pergolas, and Gazebos</strong> are popular outdoor living spaces that offer different features and benefits that can add value and functionality to your home.\r\n\r\nIf you are planning to <strong>add or remodel</strong> your outdoor living space, our experienced <strong>Idaho</strong> Licensed Structural Engineers can perform necessary <strong>Load Calculations</strong>, prepare <strong>Structural Plans</strong>, and produce Permit Sets for construction approval.",
+    "footer_parallax_image": "173",
+    "hide_what_we_do_section": "1",
+    "list_heading": "Popular Outdoor Living Spaces:",
+    "pyramid_image": "235",
+    "right_image": "611",
+    "section_content_get_started": "<p>Schedule a <strong>Free Consultation</strong> With One of Our <strong>Expert Structural Engineers</strong> for your <strong>Outdoor Living Space Project.</strong></p>\r\n\r\n<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\" class=\"btn c-get-quote-btn\"><strong>CONTACT US TODAY <i class=\"fa-solid fa-chevron-right\"></i></strong></a>",
+    "section_heading_and_content": "<h2 class=\"text-center\">Types of Outdoor Living Spaces</h2>\r\n<p class=\"text-center\">Adding or remodeling outdoor living spaces can have several benefits like enhanced property value, increased living space for relaxation, and improved health and well-being as spending time outdoors can improve your mood and reduce stress levels.</p>\r\n<p class=\"text-center\">Our Structural Engineers can perform <strong>load calculations,</strong> create <strong>structural plans</strong> and <strong>permit sets</strong> for <strong>Outdoor Living Spaces</strong> like Decks and Patios (typically attached to the house), and Porches, Pergolas and Gazebos.</p>",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br>Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "what_we_do_boxes": "1"
+  }
+}

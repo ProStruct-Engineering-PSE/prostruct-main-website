@@ -1,0 +1,12 @@
+{
+  "page_id": "670",
+  "title": "Blog",
+  "slug": "blog",
+  "template": "blog-page",
+  "url": "https://prostructengineering.com/blog/",
+  "featured_media": "0",
+  "acf": {
+    "banner_content": "Here we are dedicated to excellence in providing top-tier engineering solutions tailored to meet diverse project needs. With a commitment to innovation and precision, our experienced team combines technical expertise with creative problem-solving to deliver high-quality results.",
+    "custom_page_title": "Blog - ProStruct Engineering"
+  }
+}

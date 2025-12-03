@@ -1,0 +1,158 @@
+{
+  "banner_slider": [
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner1-1.jpg",
+        "alt": "Three generations enjoying lunch together on an open outdoor patio.",
+        "width": 1440,
+        "height": 600
+      }
+    },
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner2-1.jpg",
+        "alt": "A happy young couple enjoying cooking and playing with vegetables in a well-designed kitchen.",
+        "width": 1440,
+        "height": 600
+      }
+    },
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner3.jpg",
+        "alt": "Proud happy parents of two kids relaxing on the couch in an open-concept living area.",
+        "width": 1440,
+        "height": 600
+      }
+    }
+  ],
+  "banner_slider_mobile": [
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner1-1.jpg",
+        "alt": "Three generations enjoying lunch together on an open outdoor patio.",
+        "width": 1440,
+        "height": 600
+      }
+    },
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner2-1.jpg",
+        "alt": "A happy young couple enjoying cooking and playing with vegetables in a well-designed kitchen.",
+        "width": 1440,
+        "height": 600
+      }
+    },
+    {
+      "upload_slider_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Banner3.jpg",
+        "alt": "Proud happy parents of two kids relaxing on the couch in an open-concept living area.",
+        "width": 1440,
+        "height": 600
+      }
+    }
+  ],
+  "banner_content": "<h1>Our Experienced Structural & Civil Engineers for your <strong>Residential & Commercial </strong>Project Needs</h1>\n<span class=\"mbl-hide\">At ProStruct Engineering we take pride in professionalism.</span> Our motivation is to improve Homeowners' home-building experience by delivering high-quality Structural & Civil Engineering Plans for permit approval smoothly.\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential & Commercial Building Permits.\n\nWe're experienced, reliable, and budget-friendly.",
+  "banner_content_mobile": "<h1>Our Experienced <strong>Structural & Civil Engineers</strong> for your <strong>Residential & Commercial </strong> Project Needs</h1>",
+  "banner_bottom_content_mobile": "Our motivation is to improve Homeowners' home-building experience by delivering high-quality Structural Engineering Plans for permit approval smoothly.\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential & Commercial Building Permits.\n\nWe're experienced, reliable, and budget-friendly.",
+  "tag_line": "Professional Structural & Civil Engineers",
+  "info_image": {
+    "url": "https://prostructengineering.com/wp-content/uploads/2024/05/triangle.png",
+    "alt": "ProStruct Features: Low Cost, High Speed, High Quality",
+    "width": 1493,
+    "height": 813
+  },
+  "permit_guarantee_page_link": {
+    "page_link": "/permit-guarantee"
+  },
+  "section_heading_wcu": "Why Choose Us?",
+  "reasons": [
+    {
+      "heading": "Experienced",
+      "description": "<ul>\n\t<li>35+ Years</li>\n\t<li>3,000+ Projects</li>\n\t<li>New Home, ADU, Addition, Remodel, and More</li>\n</ul>"
+    },
+    {
+      "heading": "Budget-friendly",
+      "description": "<ul>\n\t<li>Local Pricing</li>\n\t<li>Fixed & Transparent</li>\n\t<li>No Surprises</li>\n</ul>"
+    },
+    {
+      "heading": "Licensed & Insured",
+      "description": "<ul>\n\t<li>PE License</li>\n\t<li>Insured</li>\n</ul>"
+    },
+    {
+      "heading": "Responsive & Fast",
+      "description": "<ul>\n\t<li>Proactive & Responsive</li>\n\t<li>Quick Turnaround</li>\n</ul>"
+    },
+    {
+      "heading": "Professionalism",
+      "description": "<ul>\n\t<li><strong>Our Core Values:</strong> Integrity, Responsibility, Reliability, Ethics, And Maintaining The Highest Quality Standards For Structural Plans</li>\n\t<li>Adhering To These Standards Has Helped Us Build Trust And Credibility With Our Clients</li>\n</ul>"
+    }
+  ],
+  "select_form": "hubspot",
+  "section_background_image": "https://prostructengineering.com/wp-content/uploads/2023/03/service-bg.png",
+  "section_heading_about_us": "Our Engineering Services",
+  "section_content_about_us": "ProStruct Engineering's experienced team of <strong>Professional Structural & Civil Engineers</strong> provides <strong>high-quality\nengineering</strong> plans that comply with building permit requirements for residential & Commercial projects.\n\nOur goal is to offer <strong>budget-friendly</strong> services and act as a dependable ally throughout the process.\n\nOur services include <strong>Structural and Civil Site Inspections, Structural and Civil Calculations,</strong> creating <strong>Structural and Civil Plans </strong>and preparing <strong>Structural and Civil Engineering Plans.</strong>",
+  "section_content_about_us_mobile": "Our services include <strong>Structural and Civil Site Inspections, Structural and Civil Calculations,</strong> creating <strong>Structural and Civil Plans </strong>and preparing <strong>Structural and Civil Engineering Plans.</strong>\n\nOur goal is to offer <strong>budget-friendly</strong> services and acting as a dependable ally throughout the process.",
+  "project_type_images": [
+    {
+      "upload_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Project_Types_2.jpg",
+        "alt": "Olive green-colored single-story backyard ADU with grey roof and reddish-brown doors and windows.",
+        "width": 624,
+        "height": 636
+      }
+    },
+    {
+      "upload_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Project_Types_1.jpg",
+        "alt": "Grey and white colored new custom home exterior with a front lawn and garage, and a clear blue sky above.",
+        "width": 624,
+        "height": 636
+      }
+    },
+    {
+      "upload_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/AdobeStock_507941848-1.png",
+        "alt": "Wood framing of a new custom house under construction in California",
+        "width": 624,
+        "height": 636
+      }
+    }
+  ],
+  "section_content_pt": "<h2>Project Types</h2>\nOur Structural & Civil Engineers' expertise in providing Engineering Services extends to a variety of Residential & Commercial Project Types, including:\n<div class=\"row\">\n<div class=\"col-md-6\">\n<ul>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" /> New Custom Home</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />ADU</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Home Addition/Remodel</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Load Bearing Wall Removal</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Commercial Projects</li>\n</ul>\n</div>\n<div class=\"col-md-6\">\n<ul>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Retaining Wall</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Deck, Patio & Porch</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Foundation Design & More</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Construction Administration</li>\n\t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Civil Engineering</li>\n</ul>\n</div>\n</div>\n<a class=\"btn c-get-quote-btn\" href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\">GET YOUR FREE QUOTE <i class=\"fa-solid fa-chevron-right\"></i></a>",
+  "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+  "steps": [
+    {
+      "step_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/How_It_Works_1.jpg",
+        "alt": "Illustrative sketch of architectural plans of a house which acts as an input for structural calculations and drawings.",
+        "width": 305,
+        "height": 224
+      },
+      "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available"
+    },
+    {
+      "step_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/How_It_Works_2.jpg",
+        "alt": "Blue circular button: Get a Free Structural Engineering Quote from ProStruct Engineering.",
+        "width": 305,
+        "height": 224
+      },
+      "step_details": "Get a <span>No-obligation</span>,<br/>Free Express Quote<br/>Within 24 Hours"
+    },
+    {
+      "step_image": {
+        "url": "https://prostructengineering.com/wp-content/uploads/2023/03/How_It_Works_3.jpg",
+        "alt": "A blue-colored forward-leaning clock which implies a quick turnaround time for our projects.",
+        "width": 305,
+        "height": 224
+      },
+      "step_details": "We Start Your Project, With <br/><span>Quick Delivery</span> in 2-3 Weeks for Most Projects"
+    }
+  ],
+  "footer_top_image": {
+    "url": "https://prostructengineering.com/wp-content/uploads/2023/03/Footer.jpg",
+    "alt": "Typical California House: A peach beige-colored single-story home with a terracotta roof, palm trees, and a front garden.",
+    "width": 1440,
+    "height": 545
+  }
+}

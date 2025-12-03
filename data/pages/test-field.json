@@ -1,0 +1,131 @@
+{
+  "page_id": "2079",
+  "title": "Test field",
+  "slug": "test-field",
+  "template": "testacf",
+  "url": "https://prostructengineering.com/test-field/",
+  "featured_media": "0",
+  "acf": {
+    "add_list": [
+      {
+        "list_left": "New Custom Home",
+        "list_right": "Retaining Wall"
+      },
+      {
+        "list_left": "ADU",
+        "list_right": "Deck, Patio & Porch"
+      },
+      {
+        "list_left": "Home Addition/Remodel",
+        "list_right": "Foundation Design & More"
+      },
+      {
+        "list_left": "Load Bearing Wall Removal",
+        "list_right": "Construction Administration"
+      }
+    ],
+    "add_project_details": [
+      {
+        "project_description": "<p>For many of us, building a new home is a once-in-a-lifetime dream that holds great emotional significance and deserves utmost respect and care.</p>\r\n<p>\r\nAt ProStruct Engineering, we take it upon ourselves to ensure that homeowners have a seamless experience in their home-building journey. We achieve this by delivering high-quality structural engineering plans and permit sets with fast turnaround times. Additionally, we offer transparent, fixed pricing that is budget-friendly, to ensure that homeowners can plan and budget for their home project with confidence.\r\n</p>",
+        "project_heading": "New Custom Home",
+        "project_image": "300",
+        "section_id": "sept1"
+      },
+      {
+        "project_description": "<p>At ProStruct Engineering, we understand that home renovation projects like additions and remodels can be just as emotionally significant as a new home and deserves the same level of care and respect as building a new home. We offer high-quality structural engineering plans and permit sets with fast turnaround times to ensure a smooth renovation process for homeowners. </p>",
+        "project_heading": "Home Addition/Remodel",
+        "project_image": "301",
+        "section_id": "sept3"
+      },
+      {
+        "project_description": "<p>For many homeowners, adding an accessory dwelling unit (ADU) is a significant investment and a great way to maximize the value of their property. At ProStruct Engineering, we are aware of the unique needs of ADU construction and provide expert structural engineering services to ensure that the project is completed on time, on budget, and up to code.</p>",
+        "project_heading": "Accessory Dwelling Unit (ADU)",
+        "project_image": "253",
+        "section_id": "sept2"
+      },
+      {
+        "project_description": "<p>Building a retaining wall is an essential investment that can protect your property from soil erosion and landslides. At ProStruct Engineering, we offer expert structural engineering services to ensure that your project is completed on time, and within budget.</p>",
+        "project_heading": "Retaining Wall",
+        "project_image": "302",
+        "section_id": "sept5"
+      },
+      {
+        "project_description": "<p>ProStruct Engineering provides high-quality structural engineering plans and permit sets for load-bearing wall projects with quick turnaround times and transparent pricing.</p>",
+        "project_heading": "Load Bearing Wall Removal",
+        "project_image": "303",
+        "section_id": "sept4"
+      },
+      {
+        "project_description": "<p>We understand that outdoor spaces are essential areas of your property that require careful consideration in terms of design, safety, and functionality. Whether you're looking to create a relaxing patio area, a spacious deck for outdoor entertainment, or a beautiful porch to enhance the curb appeal of your home, we have the structural engineering experience to make it happen.</p>",
+        "project_heading": "Deck, Patio & Porch",
+        "project_image": "304",
+        "section_id": "sept6"
+      },
+      {
+        "project_description": "<p>ProStruct Engineering offers expert services in seismic retrofit and foundation design with custom solutions tailored to meet your specific needs.</p>",
+        "project_heading": "Foundation Design and More",
+        "project_image": "305",
+        "section_id": "sept7"
+      },
+      {
+        "project_description": "<p>Our Construction Administration services include responding to Requests for Information (RFI), performing Submittal Reviews, addressing Substitution Requests, and conducting Structural Observations. </p>",
+        "project_heading": "Construction Administration",
+        "project_image": "306",
+        "section_id": "sept8"
+      }
+    ],
+    "bannercontent": "Our Experienced licensed Structural Engineers offer comprehensive structural engineering services for residential buildings.\r\n\r\nThe services include Structural Site Inspections, Structural Calculations, Structural Plans, and Permit Sets for permit approval.",
+    "contact_us_cta": "a:3:{s:5:\"title\";s:16:\"CONTACT US TODAY\";s:3:\"url\";s:1:\"#\";s:6:\"target\";s:0:\"\";}",
+    "description": "Our Structural Engineers’ expertise in providing Structural Engineering Services extends to a variety of Residential Project Types, including:",
+    "engagebays_form": "2149",
+    "footer_parallax_image": "173",
+    "how_it_work_bottom_cta": "a:3:{s:5:\"title\";s:13:\"GET IN TOUCH \";s:3:\"url\";s:18:\"#contactquotemodal\";s:6:\"target\";s:0:\"\";}",
+    "hubshots_form": "[hubspot type=\"form\" portal=\"45924609\" id=\"c4838a9d-2c8c-4899-a15c-c70449b34433\"]",
+    "pyramid_image": "235",
+    "section_content_get_started": "Schedule a Free Consultation With One of Our Expert Structural Engineers for Your Home Project.",
+    "section_content_wwd": "Our skilled structural engineers can provide a range of services for your residential project, whether it is a new construction project or an existing building. These services include:",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "section_heading_wwd": "What We Do?",
+    "section_image_project_types": "299",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,Free Express Quote<br/>Within 24 Hours",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "top_heading": "Structural Engineering",
+    "top_sub_heading": "Project Types",
+    "what_we_do": [
+      {
+        "heading": "Structural Site  Inspections",
+        "icon": "2124"
+      },
+      {
+        "heading": "Structural  Calculations",
+        "icon": "2119"
+      },
+      {
+        "heading": "Structural Plans",
+        "icon": "2120"
+      },
+      {
+        "heading": "Structural Permit Sets",
+        "icon": "2121"
+      },
+      {
+        "heading": "Construction  Administration",
+        "icon": "2122"
+      }
+    ]
+  }
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 3782,
+    "title": "New Custom Home",
+    "url": "/for-new-custom-home",
+    "classes": []
+  },
+  {
+    "id": 3780,
+    "title": "ADU",
+    "url": "/for-adu-or-jadu",
+    "classes": []
+  },
+  {
+    "id": 3781,
+    "title": "Addition/Remodel",
+    "url": "/home-addition-remodel",
+    "classes": []
+  },
+  {
+    "id": 3783,
+    "title": "Load-bearing Wall",
+    "url": "/for-load-bearing-wall-removal",
+    "classes": []
+  },
+  {
+    "id": 3779,
+    "title": "Retaining Wall",
+    "url": "/retaining-wall",
+    "classes": []
+  },
+  {
+    "id": 5259,
+    "title": "Foundation Design",
+    "url": "/seismic-retrofit-and-foundations",
+    "classes": []
+  },
+  {
+    "id": 5526,
+    "title": "Deck, Patio & Porch",
+    "url": "/for-deck-patio-porch-gazebo",
+    "classes": []
+  }
+]

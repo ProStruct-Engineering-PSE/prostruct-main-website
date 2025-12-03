@@ -1,0 +1,70 @@
+{
+  "page_id": "6079",
+  "title": "Trusted Structural Engineers for Your Warehouse",
+  "slug": "warehouse",
+  "template": "services-state-new custom-home-page-new",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/commercial-services/warehouse/",
+  "featured_media": "6055",
+  "acf": {
+    "banner_content": "<span style=\"font-weight: 400;\">ProStruct Engineering specializes in providing expert structural engineering services for warehouse and industrial buildings. Whether you’re constructing a new warehouse, expanding an existing facility, or optimizing a storage space, our experienced and licensed engineers deliver innovative, practical solutions tailored to meet the unique demands of your project. We understand the critical importance of durability, efficiency, and safety in warehouse design, and our team ensures compliance with all relevant building codes and regulations. From initial concept to final construction, we work closely with you to deliver a robust, cost-effective, and reliable structure that supports your operational needs and long-term goals.</span>",
+    "how_it_works_section_1_section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "how_it_works_section_1_steps": [
+      {
+        "step_details": "Share Your Requirements, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a No-obligation, Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With Quick Delivery in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "services_state_new_custom_home_page_footer_image": "3798",
+    "what_we_do_section_collapsible_content_what_we_do": "<div id=\"str2\" class=\"str_sec\">\r\n<h4>Structural Site Inspections</h4>\r\nThis involves a site visit to evaluate factors that may affect the structural design of your new building.\r\n\r\n</div>\r\n<div id=\"str3\" class=\"str_sec\">\r\n<h4>Structural Calculations</h4>\r\nLoad calculations are conducted to assess the static and dynamic stresses the building’s structure will face during <strong>seismic events or earthquakes</strong>. These calculations help <strong>determine</strong> the <strong>proper sizes and configurations of structural elements</strong>, such as beams, columns, load-bearing walls, and foundations, <strong>ensuring safety</strong>.\r\n\r\n</div>\r\n<div id=\"str4\" class=\"str_sec\">\r\n<h4>Structural Plans</h4>\r\nUsing the results from structural load calculations, our engineers create <strong>detailed plans for</strong> the structural components of your new building, including <strong>framing, foundation, and roof systems.</strong>&gt;\r\n\r\n</div>\r\n<div id=\"str5\" class=\"str_sec\">\r\n<h4>Structural Permit Sets</h4>\r\nThese typically consist of detailed drawings, specifications, calculations, and other <strong>documentation</strong> necessary for securing a <strong>construction permit from local building departments.</strong>\r\n\r\n</div>\r\n<div id=\"str6\" class=\"str_sec\">\r\n<h4>Construction Administration</h4>\r\nOur skilled structural engineers offer Construction Administration services, providing guidance and support throughout the construction process. This includes responding to <strong>Request for Information (RFI)</strong>, reviewing <strong>submittals, addressing substitution requests</strong>, and performing structural observations. They will inspect the construction work to ensure compliance with building codes and approved structural plans, and resolve any unforeseen structural issues that arise during construction.\r\n\r\n</div>",
+    "what_we_do_section_section_content_what_we_do": "Our skilled structural engineers can provide the following services for your Commercial Project:",
+    "what_we_do_section_section_heading_what_we_do": "What We Do?",
+    "what_we_do_section_what_we_do_repeater": [
+      {
+        "heading": "Structural Site Inspections",
+        "svg_icon": "2124"
+      },
+      {
+        "heading": "Structural Calculations",
+        "svg_icon": "2122"
+      },
+      {
+        "heading": "Structural Plans",
+        "svg_icon": "2121"
+      },
+      {
+        "heading": "Structural Permit Sets",
+        "svg_icon": "2120"
+      },
+      {
+        "heading": "Construction Administration",
+        "svg_icon": "2119"
+      }
+    ],
+    "why_choose_us_section": [
+      {
+        "description": "With over 35 years in the structural engineering industry, we have successfully completed a wide range of commercial projects. Our engineers are highly skilled and keep up with the latest industry trends, technologies, and local code changes.",
+        "heading": "Expertise You Can Trust"
+      },
+      {
+        "description": "Every tenant improvement project is unique. We take the time to understand your vision, goals, and requirements to deliver customized structural solutions that fit perfectly within your budget and timeline.",
+        "heading": "Tailored Solutions"
+      },
+      {
+        "description": "We understand the importance of meeting deadlines and staying within budget. Our team prioritizes efficiency without compromising quality, helping you achieve your project goals on time and within financial expectations.",
+        "heading": "Efficiency & Reliability"
+      },
+      {
+        "description": "We value communication and collaboration. From the initial consultation to the final inspection, we work closely with your team to ensure that all aspects of the project are aligned and that you have peace of mind throughout the entire process.",
+        "heading": "Collaborative Approach"
+      }
+    ]
+  }
+}

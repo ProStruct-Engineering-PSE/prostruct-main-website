@@ -1,0 +1,112 @@
+{
+  "page_id": "6044",
+  "title": "Idaho Civil Engineers",
+  "slug": "civil-engineers",
+  "template": "home-page",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/civil-engineers/",
+  "featured_media": "5973",
+  "acf": {
+    "add_contact_details": "<ul>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>450 Folsom Street, #1502 <br>San Francisco CA 94105</li>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>1177 Branham Ln, #1008 <br>San Jose CA 95118</li>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>1601 S. Fourth Street<br>Alhambra CA 91803</li>\r\n              <li><i class=\"fas fa-phone\" aria-hidden=\"true\"></i><a href=\"tel:+1 844-750-0773\">+1 844-750-0773</a> | <a href=\"tel:+1 6509771073\">+1 650-977-1073</a</li>\r\n</ul>",
+    "add_social": [
+      {
+        "social_icon_class": "<i class=\"fab fa-instagram\"></i>",
+        "social_link": "https://instagram.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-twitter\"></i>",
+        "social_link": "https://twitter.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-facebook-f\"></i>",
+        "social_link": "https://facebook.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-linkedin\"></i>",
+        "social_link": "https://linkedin.com.com"
+      }
+    ],
+    "banner_bottom_content_mobile": "Our motivation is to improve Idaho Homeowners' home-building experience by delivering high-quality Civil Engineering Plans for permit approval smoothly.\r\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential Building Permits.\r\n\r\nWe’re experienced, reliable, and budget-friendly.",
+    "banner_content": "<h1>Trust our Experienced\r\nCivil Engineers for your\r\n<strong>Residential</strong> Project Needs</h1>\r\n<span class=\"mbl-hide\">At ProStruct Engineering we take pride in professionalism.</span> Our motivation is to improve <strong>Idaho</strong> Homeowners' home-building experience by delivering high-quality Civil Engineering Plans for permit approval smoothly.\r\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential Building Permits.\r\n\r\nWe’re experienced, reliable, and budget-friendly.",
+    "banner_content_mobile": "<h1>Experienced <strong>Idaho Civil Engineers</strong> for your <strong>Residential</strong> Project Needs</h1>",
+    "banner_slider": [
+      {
+        "upload_slider_image": "163"
+      },
+      {
+        "upload_slider_image": "164"
+      },
+      {
+        "upload_slider_image": "162"
+      }
+    ],
+    "contact_widget_heading": "Contact information",
+    "copyright_text": "© 2023 ProStruct Engineering Inc. All Rights Reserved.",
+    "e_california_civil_engineers_civil_engineering_services": "<h3><b>Civil Engineering Services</b></h3>\r\n<span style=\"font-weight: 400;\">Comprehensive site development solutions tailored for residential, commercial, and mixed-use projects. Our civil engineering team ensures every design is code-compliant, cost-efficient, and construction-ready.</span>\r\n<h3><b>Stormwater Drainage Design</b></h3>\r\n<span style=\"font-weight: 400;\">Prevent on-site flooding and ensure local compliance with professionally designed stormwater systems. We analyze runoff patterns and develop drainage plans that protect your property and infrastructure.</span>\r\n<h3><b>Grading Plans</b></h3>\r\n<span style=\"font-weight: 400;\">Establish the right foundation for your project. Our grading plans help manage slope, support proper drainage, and align with building requirements — minimizing costly changes during construction.</span>\r\n<h3><b>Erosion &amp; Sediment Control</b></h3>\r\n<span style=\"font-weight: 400;\">Maintain environmental compliance and site integrity. We create effective erosion control plans that reduce runoff, protect surrounding land, and meet city or county permitting standards.</span>\r\n<h3><b>Cut &amp; Fill Calculations</b></h3>\r\n<span style=\"font-weight: 400;\">Balance earthwork to save on hauling and material costs. We provide precise cut and fill analysis to help optimize your site prep and streamline your construction process.</span>\r\n\r\n<a class=\"btn c-get-quote-btn\" href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\">GET YOUR FREE QUOTE </a>",
+    "footer_background_image": "75",
+    "footer_bottom_content": "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.",
+    "footer_logo": "7",
+    "footer_site_description": "Our civil engineers offer dependable professional civil engineering services for residential building permits at reasonable prices. Trust us to deliver high-quality civil plans.",
+    "footer_top_image": "173",
+    "info_image": "1564",
+    "nav_button_label": "Contact Us",
+    "nav_button_link": "https://prostructengineering.com/contact-us/",
+    "permit_guarantee_page_link_page_link": "5344",
+    "project_type_images": [
+      {
+        "upload_image": "166"
+      },
+      {
+        "upload_image": "167"
+      },
+      {
+        "upload_image": "178"
+      }
+    ],
+    "reasons": [
+      {
+        "description": "<ul>\r\n \t<li>35+ Years</li>\r\n \t<li>3,000+ Projects</li>\r\n \t<li>New Home, ADU, Adadition, Remodel, and More</li>\r\n</ul>",
+        "heading": "Experienced"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Local Pricing</li>\r\n \t<li>Fixed &amp; Transparent</li>\r\n \t<li>No Surprises</li>\r\n</ul>",
+        "heading": "Budget-friendly"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Idaho PE License</li>\r\n \t<li>Insured</li>\r\n</ul>",
+        "heading": "Licensed & Insured"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Proactive &amp; Responsive</li>\r\n \t<li>Quick Turnaround</li>\r\n</ul>",
+        "heading": "Responsive & Fast"
+      },
+      {
+        "description": "<ul>\r\n \t<li><strong>Our Core Values:</strong> Integrity, Responsibility, Reliability, Ethics, And Maintaining The Highest Quality Standards For Civil Plans</li>\r\n \t<li>Adhering To These Standards Has Helped Us Build Trust And Credibility With Our Clients</li>\r\n</ul>",
+        "heading": "Professionalism"
+      }
+    ],
+    "section_background_image": "43",
+    "section_content_about_us": "<span style=\"font-weight: 400;\">ProStruct Engineering’s experienced team of <strong>Professional Structural &amp; Civil Engineers</strong> provides <strong>high-quality </strong></span><span style=\"font-weight: 400;\"><strong>engineering</strong> plans that comply with building permit requirements for residential &amp; commercial projects.</span>\r\n\r\n<span style=\"font-weight: 400;\">Our goal is to offer <strong>budget-friendly services</strong> and act as a dependable ally throughout your project.</span>\r\n\r\n<span style=\"font-weight: 400;\">Our services include <strong>Structural Site Inspections</strong>, <strong>Structural Calculations</strong>, creating <strong>Structural Plans</strong>, </span><span style=\"font-weight: 400;\">and preparing <strong>Structural Permit Sets</strong>.</span>",
+    "section_content_about_us_mobile": "Our services include <strong>Civil Site Inspections, Civil Calculations,</strong> creating <strong>Civil Plans,</strong>\r\nand preparing <strong>Civil Permit Sets.</strong>\r\n\r\nOur goal is to <strong>enhance the home-building journey</strong> of Washington homeowners by offering <strong>budget-\r\nfriendly</strong> services and acting as a dependable ally throughout the process.",
+    "section_content_pt": "<h3>Project Types</h3>\r\n&nbsp;\r\n\r\n<span style=\"font-weight: 400;\">Our Structural &amp; Civil Engineers’ expertise extends to a variety of Residential and Commercial Project Types, including:</span>\r\n<div class=\"row\">\r\n<div class=\"col-md-6\">\r\n<ul>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" /> New Custom Home</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />ADU</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Home Addition/Remodel</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Load Bearing Wall Removal</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Commercial Projects</li>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-6\">\r\n<ul>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Retaining Wall</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Deck, Patio &amp; Porch</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Foundation Design &amp; More</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Construction Administration</li>\r\n</ul>\r\n</div>\r\n</div>\r\n<a class=\"btn c-get-quote-btn\" href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\">GET YOUR FREE QUOTE <i class=\"fa-solid fa-chevron-right\"></i></a>",
+    "section_heading_about_us": "Our Structural & Civil Engineering Services",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "section_heading_wcu": "Why Choose Us?",
+    "select_form": "hubshotens",
+    "social_visibility": "Show",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br/>Free Express Quote<br/>Within 24 Hours",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br/><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "tag_line": "Professional Civil Engineers"
+  }
+}

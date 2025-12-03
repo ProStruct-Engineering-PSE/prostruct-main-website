@@ -1,0 +1,197 @@
+/* add css for about start here */
+
+
+.our_core_values_section .c-project-type-sec {
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 100px 0;
+    background-size: cover;
+}
+
+.about_data {
+    padding: 30px 0 30px 25px;
+}
+.about_data h4 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 43px;
+    color: #F8F7FC;
+}
+.about_data p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #F8F7FC;
+    padding: 0;
+    margin: 0;
+}
+.about_data p span {
+    font-weight: bold;
+}
+.about_data_cont {
+    padding-right: 75px;
+}
+
+.banner_caption_inner_page {
+    text-align: center;
+    width: 100%;
+}
+.banner_caption_inner_page h1 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    color: #F8F7FC;
+}
+
+
+.our_motivation_section {
+    margin-bottom: 80px;
+}
+.our_motivation_cont_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_motivation_cont h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 57px;
+    color: #252525;
+}
+.our_motivation_cont p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #252525;
+}
+.our_motivation_cont p span {
+    color: #006A4E;
+    font-weight: 600;
+}
+.why_choose_us_section h2 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    color: #252525;
+}
+.why_choose_us_section h3 {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #252525;
+    margin-bottom: 15px;
+}
+.why_choose_us_section p {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #252525;
+}
+.why_choose_us_section p span {
+    color: #006A4E;
+    font-weight: 600;
+}
+
+span.highlited_text {
+    background: #006a4e;
+    font-weight: 400 !important;
+    padding: 2px 5px 2px;
+    border-radius: 2px;
+}
+
+/* add css for about ends here */
+
+
+@media only screen and (max-width:767px) {
+
+    .banner_caption_inner_page h1 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .about_data {
+        padding: 10px 20px;
+    }
+    .about_data_cont {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .about_data h4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+    .our_motivation_cont h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .our_motivation_section {
+        margin-bottom: 30px;
+    }
+    .why_choose_us_section h2 {
+        font-size: 26px;
+        line-height: 36px;
+    }
+    .why_choose_us_section h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .our_core_values_section .c-project-type-sec {
+        padding: 35px 0;
+    }
+
+}
+
+@media only screen and (max-width:575px) {
+    .c-banner-caption {
+        padding: 10px 0 10px;
+        min-height: 120px;
+    }
+    .banner_caption_inner_page h1 {
+        color: #000000;
+        margin: 0;
+    }
+}
+
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+    .banner_caption_inner_page h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .about_data h4 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .our_motivation_cont h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .our_motivation_section {
+        margin-bottom: 20px;
+    }
+    .why_choose_us_section h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .our_core_values_section .c-project-type-sec {
+        padding: 35px 0;
+    }
+
+}

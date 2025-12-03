@@ -1,0 +1,48 @@
+{
+  "page_id": "6036",
+  "title": "Structural Engineer for <br> Seismic Retrofit and Foundations",
+  "slug": "seismic-retrofit-and-foundations",
+  "template": "service-state-home-addition-remodel",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/services/seismic-retrofit-and-foundations/",
+  "featured_media": "5978",
+  "acf": {
+    "add_adu_type_lists": [
+      {
+        "content": "A new foundation design may be required whenever the structural integrity of your home is at risk due to changes in the building's use, modifications to the existing foundation, or new construction. For significant additions, remodels, or modifications to the existing foundation, such as the addition of a basement or crawlspace, our experienced structural engineers can assess the changes and design a new foundation if necessary.",
+        "heading": "New Foundation Design"
+      },
+      {
+        "content": "A seismic retrofit for a home is a modification to the structure to make it more resistant to earthquake damage. It typically involves strengthening the foundation and other key structural components of the home, such as the foundation, walls, and roof, to improve its ability to withstand seismic activity.",
+        "heading": "Seismic Retrofit"
+      },
+      {
+        "content": "Foundation retrofit or repair may be required if there is structural damage to the foundation, such as cracks or settling, that could compromise the stability of your home. Our structural engineer will assess the damage and design a repair solution to ensure the foundation's stability and integrity.",
+        "heading": "Foundation Repair"
+      }
+    ],
+    "banner_content": "Home Foundation Engineering Plans must be prepared by a qualified structural engineer for new construction, remodeling, or addition to an existing home, or due to structural damage like <strong>foundation cracks</strong> due to settling or other factors to ensure stability during a seismic activity such as an <strong>earthquake</strong>.\r\n\r\nOur experienced <strong>Idaho</strong> Licensed Structural Engineers can perform necessary <strong>Structural Site Inspections, Load Calculations</strong>, prepare <strong>Structural Plans</strong>, and produce <strong>Permit Sets</strong> for Foundation Repair, new Foundation Design, and for <strong>Seismic Retrofit</strong> of your home.",
+    "footer_parallax_image": "173",
+    "hide_what_we_do_section": "1",
+    "pyramid_image": "235",
+    "right_image": "305",
+    "section_content_get_started": "<p>Schedule a <strong>Free Consultation</strong> With One of Our <strong>Expert Structural Engineers</strong> for your <strong>Seismic Retrofit or Foundation Design Project.</strong><p>\r\n\r\n<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\" class=\"btn c-get-quote-btn\"><strong>CONTACT US TODAY <i class=\"fa-solid fa-chevron-right\"></i></strong></a>",
+    "section_heading_and_content": "<h2 class=\"text-center\">Seismic Retrofit and Foundation Projects</h2>\r\n<p class=\"text-center\">Our Structural Engineers can perform <strong>site inspections, load calculations</strong>, create <strong>structural plans</strong> and <strong>permit sets</strong> for Seismic Retrofit and Foundation Design for your home to ensure structural integrity and safety of your home.</p>\r\n",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br>Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ]
+  }
+}

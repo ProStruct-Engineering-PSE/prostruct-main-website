@@ -1,0 +1,141 @@
+{
+  "nav_button_label": "Contact Us",
+  "logo": {
+    "url": "/images/new-logo.svg",
+    "alt": "ProStruct Engineering Logo",
+    "width": 217,
+    "height": 50
+  },
+  "tracking": {
+    "gtm_id": "GTM-NP5TBLL",
+    "ga_id": "G-61MTN3BM0P",
+    "clickcease_account": "3mr5akvphhvicl1lqjsl9iqqsm"
+  },
+  "menu_mapping": {
+    "default": "header_state",
+    "oregon": "header_state_or",
+    "washington": "header_state_wa",
+    "california": "header_state_ca",
+    "colorado": "header_state_co",
+    "nevada": "header_state_nv",
+    "utah": "header_state_ut",
+    "arizona": "header_state_az",
+    "idaho": "header_state_id",
+    "texas": "header_state_tx",
+    "georgia": "header_state_ga",
+    "new_mexico": "header_state_mx",
+    "mobile": "header_state_mobile"
+  },
+  "state_logo_links": {
+    "/oregon-structural-engineers": "/oregon-structural-engineers",
+    "/washington-structural-engineers": "/washington-structural-engineers",
+    "/california-structural-engineers": "/california-structural-engineers",
+    "/texas-structural-engineers": "/texas-structural-engineers",
+    "/georgia-structural-engineers": "/georgia-structural-engineers",
+    "/colorado-structural-engineers": "/colorado-structural-engineers",
+    "/nevada-structural-engineers": "/nevada-structural-engineers",
+    "/utah-structural-engineers": "/utah-structural-engineers",
+    "/arizona-structural-engineers": "/arizona-structural-engineers",
+    "/idaho-structural-engineers": "/idaho-structural-engineers",
+    "/new-mexico-structural-engineers": "/new-mexico-structural-engineers",
+    "default": "/"
+  },
+  "menus": {
+    "note": "Menu items need to be exported from WordPress Appearance → Menus",
+    "required_menus": [
+      "header_state",
+      "header_state_or",
+      "header_state_wa",
+      "header_state_ca",
+      "header_state_co",
+      "header_state_nv",
+      "header_state_ut",
+      "header_state_az",
+      "header_state_id",
+      "header_state_tx",
+      "header_state_ga",
+      "header_state_mx",
+      "header_state_mobile"
+    ],
+    "placeholder_menu": [
+      {
+        "id": 1,
+        "title": "Home",
+        "url": "/",
+        "classes": []
+      },
+      {
+        "id": 2,
+        "title": "Services",
+        "url": "/services",
+        "classes": ["service-menu"],
+        "children": [
+          {
+            "id": 21,
+            "title": "New Custom Home",
+            "url": "/services/for-new-custom-home"
+          },
+          {
+            "id": 22,
+            "title": "ADU (or JADU)",
+            "url": "/services/for-adu-or-jadu"
+          },
+          {
+            "id": 23,
+            "title": "Addition & Remodel",
+            "url": "/services/for-home-addition-remodel"
+          },
+          {
+            "id": 24,
+            "title": "Load-Bearing Wall Removal",
+            "url": "/services/for-load-bearing-wall-removal"
+          },
+          {
+            "id": 25,
+            "title": "Retaining Walls",
+            "url": "/services/for-retaining-walls"
+          },
+          {
+            "id": 26,
+            "title": "Deck, Patio, Porch, Gazebo",
+            "url": "/services/for-deck-patio-porch-gazebo"
+          },
+          {
+            "id": 27,
+            "title": "Foundation & Seismic Retrofit",
+            "url": "/services/seismic-retrofit-and-foundations"
+          },
+          {
+            "id": 28,
+            "title": "Construction Administration",
+            "url": "/services/for-construction-administration"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Commercial Services",
+        "url": "/commercial-services",
+        "classes": []
+      },
+      {
+        "id": 4,
+        "title": "About Us",
+        "url": "/about-us",
+        "classes": ["about-menu"]
+      },
+      {
+        "id": 5,
+        "title": "License",
+        "url": "/license",
+        "classes": []
+      },
+      {
+        "id": 6,
+        "title": "Reviews",
+        "url": "/reviews",
+        "classes": []
+      }
+    ]
+  }
+}

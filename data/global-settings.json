@@ -1,0 +1,77 @@
+{
+  "nav_button_label": "Contact Us",
+  "footer_background_image": "https://prostructengineering.com/wp-content/uploads/2023/03/footer-bg.png",
+  "footer_logo": {
+    "url": "/images/new-logo.svg",
+    "alt": "ProStruct Engineering Logo"
+  },
+  "footer_site_description": "Our structural & civil engineers offer dependable professional engineering services for residential and commercial building permits at reasonable prices. Trust us to deliver high-quality structural & civil plans.",
+  "social_visibility": "Hide",
+  "add_social": [],
+  "contact_widget_heading": "Contact information",
+  "copyright_text": "© 2025 ProStruct Engineering Inc. All Rights Reserved.",
+  "footer_bottom_content": "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.",
+  "add_contact_details": "<ul>\n\t<li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>450 Folsom Street, #1502<br>San Francisco CA 94105</li>\n\t<li><i class=\"fas fa-phone\" aria-hidden=\"true\"></i><a href=\"tel:+18447500773\">+1 844-750-0773</a></li>\n</ul>",
+  "add_contact_details_oregon": "",
+  "add_contact_details_california": "",
+  "add_contact_details_colorado": "",
+  "footer_menu_mapping": {
+    "note": "Footer menus vary by state and service type (residential vs commercial)",
+    "default": {
+      "menu_1": "footer_menu_1",
+      "menu_2": "footer_menu_2"
+    },
+    "oregon_residential": {
+      "menu_1": "footer_menu_or_1",
+      "menu_2": "footer_menu_or_2"
+    },
+    "oregon_commercial": {
+      "menu_1": "footer_menu_or_cs_1",
+      "menu_2": "footer_menu_or_cs_2"
+    },
+    "washington_residential": {
+      "menu_1": "footer_menu_wa_1",
+      "menu_2": "footer_menu_wa_2"
+    },
+    "california_residential": {
+      "menu_1": "footer_menu_ca_1",
+      "menu_2": "footer_menu_ca_2"
+    },
+    "colorado_residential": {
+      "menu_1": "footer_menu_co_1",
+      "menu_2": "footer_menu_co_2"
+    },
+    "nevada_residential": {
+      "menu_1": "footer_menu_nv_1",
+      "menu_2": "footer_menu_nv_2"
+    },
+    "utah_residential": {
+      "menu_1": "footer_menu_ut_1",
+      "menu_2": "footer_menu_ut_2"
+    },
+    "arizona_residential": {
+      "menu_1": "footer_menu_az_1",
+      "menu_2": "footer_menu_az_2"
+    },
+    "idaho_residential": {
+      "menu_1": "footer_menu_id_1",
+      "menu_2": "footer_menu_id_2"
+    },
+    "texas_residential": {
+      "menu_1": "footer_menu_tx_1",
+      "menu_2": "footer_menu_tx_2"
+    },
+    "georgia_residential": {
+      "menu_1": "footer_menu_ga_1",
+      "menu_2": "footer_menu_ga_2"
+    },
+    "new_mexico_residential": {
+      "menu_1": "footer_menu_mx_1",
+      "menu_2": "footer_menu_mx_2"
+    },
+    "commercial": {
+      "menu_1": "footer_menu_cs_1",
+      "menu_2": "footer_menu_cs_2"
+    }
+  }
+}

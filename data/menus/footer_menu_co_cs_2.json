@@ -1,0 +1,44 @@
+[
+  {
+    "id": 4614,
+    "title": "Warehouse",
+    "url": "/warehouse",
+    "classes": []
+  },
+  {
+    "id": 4613,
+    "title": "Offices",
+    "url": "/for-offices",
+    "classes": []
+  },
+  {
+    "id": 4612,
+    "title": "Retail",
+    "url": "/for-retails",
+    "classes": []
+  },
+  {
+    "id": 4611,
+    "title": "Data Center",
+    "url": "/for-data-centers",
+    "classes": []
+  },
+  {
+    "id": 4622,
+    "title": "Privacy Policy",
+    "url": "/privacy-policy",
+    "classes": []
+  },
+  {
+    "id": 4632,
+    "title": "License",
+    "url": "/license",
+    "classes": []
+  },
+  {
+    "id": 5409,
+    "title": "Permit Guarantee",
+    "url": "/permit-guarantee",
+    "classes": []
+  }
+]

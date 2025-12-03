@@ -1,0 +1,484 @@
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.6);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 10px rgba(255, 255, 255, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
+  }
+}
+
+.o-header {
+  left: 0;
+  top: 0;
+  position: relative;
+  z-index: 99;
+  padding: 15px 0;
+  webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-color: #303030;
+}
+
+body.home .o-header {
+  position: absolute;
+  background-color: transparent;
+}
+
+@keyframes smoothScroll {
+  0% {
+    transform: translateY(-40px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.o-header.sticky {
+  position: fixed !important;
+  top: 0;
+  z-index: 999999999;
+  padding: 7px 0;
+  background: #2c3440 !important;
+  box-shadow: rgb(0 0 0 / 20%) 0 0 10px;
+  animation: smoothScroll 1s forwards;
+}
+
+.o-header.sticky .o-logo {
+  width: 150px;
+}
+
+.o-header.sticky .c-nav-sup ul > li > a {
+  font-size: 14px;
+}
+
+.o-header.sticky .c-btn-contact {
+  min-width: 145px;
+  font-size: 14px;
+  background: #fff !important;
+  color: #006a4e !important;
+  animation: pulse 2s infinite;
+}
+
+.o-header__right {
+  margin-left: auto;
+}
+
+.c-btn-toggle {
+  display: none;
+}
+
+.c-nav-sup {
+  display: inline-block;
+
+  vertical-align: middle;
+
+  margin-right: 28px;
+}
+
+.c-nav-sup ul {
+  margin: 0;
+}
+
+.c-nav-sup ul > li {
+  display: inline-block;
+
+  vertical-align: middle;
+
+  position: relative;
+}
+
+.c-nav-sup ul > li + li {
+  margin-left: 28px;
+}
+
+.c-nav-sup ul > li > a {
+  font-weight: 500;
+
+  font-size: 15px;
+
+  color: #f8f7fc;
+
+  position: relative;
+
+  text-transform: uppercase;
+}
+
+.c-nav-sup ul > li > a:hover {
+  color: #006a4e;
+}
+
+.c-nav-sup ul.sub-menu {
+  position: absolute;
+  width: 200px;
+  border-radius: 2px;
+  top: 100%;
+  opacity: 0;
+  display: none;
+  z-index: 9;
+  padding-top: 15px;
+  transition: all ease-in-out 0.3s;
+}
+
+.c-nav-sup ul li:hover ul.sub-menu {
+  opacity: 1;
+  display: block;
+  transition: all ease-in-out 0.3s;
+}
+
+.c-nav-sup ul.sub-menu li {
+  display: block;
+  background-color: #0c7156;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.c-nav-sup ul.sub-menu li a {
+  padding: 15px 10px !important;
+  display: block;
+}
+
+.c-nav-sup ul.sub-menu li:hover a,
+.c-nav-sup ul.sub-menu li.current-menu-item a {
+  color: #89d6c2;
+}
+
+/*.c-nav-sup ul ul{
+
+    position:absolute;
+
+    width:200px;
+
+    position:absolute;
+
+    left:0;
+
+    top: 100%;
+
+    opacity:0;
+
+    transform:translateY(10px);
+
+    background:#1074b9;
+
+    pointer-events:none;
+
+    transition:all 0.3s ease-in-out;
+
+}
+
+.c-nav-sup ul ul > li{
+
+    display:block;
+
+    margin: 0 !important;
+
+}
+
+.c-nav-sup ul ul > li > a{
+
+    font-size:16px;
+
+    transition:all 0.3s ease-in-out;
+
+}
+
+.c-nav-sup ul ul > li:hover > a,
+
+.c-nav-sup ul ul > li.active > a{
+
+    background:#FFF;
+
+    color:#1074b9;
+
+}*/
+
+.o-logo,
+.o-header.sticky .o-logo {
+  width: 206px;
+}
+
+/*responsive css*/
+
+@media (max-width: 1199.98px) {
+  .c-nav-sup li + li {
+    margin-left: 10px;
+  }
+
+  .c-nav-sup li a {
+    font-size: 14px;
+  }
+
+  .c-link-accedi {
+    font-size: 14px;
+  }
+
+  .o-header .btn:not(.c-toggle-menu) {
+    padding: 8px 15px;
+  }
+
+  .c-lang {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .o-header {
+    padding: 10px 0;
+  }
+
+  .o-header__top {
+    border-bottom: #ccc 1px solid;
+
+    padding-bottom: 10px;
+
+    margin-bottom: 8px;
+  }
+
+  .c-logo {
+    width: 70px;
+  }
+
+  .c-nav-sup {
+    display: none;
+  }
+
+  ul.sub-menu li {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .c-btn-toggle {
+    display: inline-block;
+
+    padding: 4px 10px !important;
+
+    background: #006a4e !important;
+
+    border-color: #006a4e !important;
+
+    margin-right: 10px;
+
+    color: #fff;
+
+    border-radius: 0;
+
+    font-size: 20px;
+  }
+
+  .o-header .offcanvas-end {
+    width: 320px;
+    background-color: #1d2531;
+  }
+
+  .c-mobile-menu ul > li {
+    display: block;
+    margin-bottom: 0;
+    position: relative;
+    padding: 0;
+    margin: 10px 0;
+  }
+
+  .c-mobile-menu ul > li a {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff;
+    padding: 12px 25px 12px 60px;
+    display: block;
+  }
+
+  .c-mobile-menu ul > li a:before {
+    left: 0;
+  }
+
+  .c-mobile-menu ul > li a:hover,
+  .c-mobile-menu ul > li.current_page_item a,
+  .c-mobile-menu ul li.activeli a {
+    color: #ffffff;
+
+    /*        background-color: #006a4e;*/
+  }
+
+  .o-header.sticky {
+    animation: unset;
+  }
+
+  .c-mobile-menu ul > li ul {
+    width: 100%;
+    /*        background: #373e49;*/
+    position: static;
+    top: 100%;
+    left: 0;
+    text-align: left;
+    display: none;
+    float: left;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .c-mobile-menu ul li .arw-nav {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+    z-index: 999;
+    cursor: pointer;
+    background-image: url(https://prostructengineering.com/wp-content/uploads/2023/06/arw.png);
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: center;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+  }
+  .c-mobile-menu ul li .arw-nav.actv {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
+  }
+
+  .o-header .offcanvas-body {
+    padding: 0;
+  }
+
+  .o-header .btn-close {
+    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/cross.png);
+    opacity: 1;
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .c-mobile-menu ul > li.current_page_item ul li a,
+  .c-mobile-menu ul li.activeli ul li a {
+    /*        background-color: #373e49;*/
+    color: #ffffff;
+  }
+
+  .c-mobile-menu ul li.activeli ul li.current-menu-item a {
+    color: #fff;
+    /*        background-color: #006a4e;*/
+  }
+
+  .c-mobile-menu {
+    margin-top: 16px;
+  }
+
+  .service-menu-1 a {
+    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/service-icon.png)
+      no-repeat center left 25px;
+  }
+
+  .reviews-menu-icon a {
+    background: url(https://prostructengineering.com/wp-content/uploads/2024/05/review-icon.png)
+      no-repeat center left 25px;
+  }
+
+  .about-menu a {
+    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/about-icon.png)
+      no-repeat center left 25px;
+  }
+  .blog-menu-updated a {
+    background: url(https://prostructengineering.com/wp-content/uploads/2023/12/blog-inner-e1703626965779.png)
+      no-repeat center left 25px;
+  }
+  .sub-menu li a {
+    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/arrow-angle-pointing-to-right.png)
+      no-repeat center left 36px;
+    background-size: 10px;
+  }
+
+  .c-mobile-menu ul li#menu-item-308 {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body.home .o-header {
+    position: relative;
+  }
+
+  .o-logo,
+  .o-header.sticky .o-logo {
+    width: 120px;
+  }
+
+  .o-header.sticky .c-btn-contact {
+    min-width: auto;
+  }
+
+  .c-btn-toggle {
+    margin-right: 0;
+    font-size: 16px;
+  }
+  header.sticky .c-btn-toggle {
+    background: #fff !important;
+    color: #006a4e;
+    border-color: #fff !important;
+  }
+
+  a.ph-show {
+    display: inline-block;
+    background: #006a4e;
+    width: 35px;
+    height: 33px;
+    text-align: center;
+    padding: 3px 0;
+    line-height: 24px;
+    color: #ffffff;
+    margin-right: 0;
+  }
+
+  .o-header {
+    padding: 10px 0 0 0;
+  }
+
+  .o-header .o-header__right .c-btn-contact {
+    display: none;
+  }
+
+  .o-header.sticky {
+    padding: 7px 0 0 0;
+    background-color: #202835 !important;
+  }
+
+  .head-bottom {
+    padding: 5px 0;
+    background: #2c3440;
+    margin-top: 10px;
+  }
+
+  body.home .o-header {
+    background: #1d2531;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .c-mobile-menu .menu .service-menu-1:nth-of-type(2) {
+    display: none !important;
+  }
+}

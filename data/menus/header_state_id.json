@@ -1,0 +1,201 @@
+[
+  {
+    "id": 5980,
+    "title": "Residential",
+    "url": "/services",
+    "classes": [
+      "residential-menu"
+    ],
+    "children": [
+      {
+        "id": 5981,
+        "title": "Services",
+        "url": "/services",
+        "classes": []
+      },
+      {
+        "id": 6014,
+        "title": "New Custom Home",
+        "url": "/for-new-custom-home",
+        "classes": []
+      },
+      {
+        "id": 6018,
+        "title": "Home Addition/<br>Remodel",
+        "url": "/for-home-addition-remodel",
+        "classes": []
+      },
+      {
+        "id": 6021,
+        "title": "ADU",
+        "url": "/for-adu-or-jadu",
+        "classes": []
+      },
+      {
+        "id": 6026,
+        "title": "Retaining Wall",
+        "url": "/for-retaining-walls",
+        "classes": []
+      },
+      {
+        "id": 6030,
+        "title": "Load Bearing Wall Removal",
+        "url": "/for-load-bearing-wall-removal",
+        "classes": []
+      },
+      {
+        "id": 6034,
+        "title": "Deck, Patio & Porch",
+        "url": "/for-deck-patio-porch-gazebo",
+        "classes": []
+      },
+      {
+        "id": 6038,
+        "title": "Foundation Design",
+        "url": "/seismic-retrofit-and-foundations",
+        "classes": []
+      },
+      {
+        "id": 6042,
+        "title": "Construction Administration",
+        "url": "/for-construction-administration",
+        "classes": []
+      },
+      {
+        "id": 6048,
+        "title": "Civil Engineering",
+        "url": "/civil-engineers",
+        "classes": []
+      }
+    ]
+  },
+  {
+    "id": 6057,
+    "title": "Commercial",
+    "url": "/commercial-services",
+    "classes": [
+      "commercial-menu",
+      "a"
+    ],
+    "children": [
+      {
+        "id": 6058,
+        "title": "Services",
+        "url": "/commercial-services",
+        "classes": []
+      },
+      {
+        "id": 6060,
+        "title": "Ground Up Construction",
+        "url": "/for-ground-up-construction",
+        "classes": []
+      },
+      {
+        "id": 6063,
+        "title": "Tenant Improvement",
+        "url": "/for-tenant-improvement",
+        "classes": []
+      },
+      {
+        "id": 6068,
+        "title": "Mixed-Use Building",
+        "url": "/for-mixed-use-buildings",
+        "classes": []
+      },
+      {
+        "id": 6073,
+        "title": "Apartment/Townhouse Building",
+        "url": "/for-apartment-buildings",
+        "classes": []
+      },
+      {
+        "id": 6077,
+        "title": "Equipment Anchorage",
+        "url": "/for-equipment-anchorage",
+        "classes": []
+      },
+      {
+        "id": 6081,
+        "title": "Warehouse",
+        "url": "/warehouse",
+        "classes": []
+      },
+      {
+        "id": 6085,
+        "title": "Office",
+        "url": "/for-offices",
+        "classes": []
+      },
+      {
+        "id": 6089,
+        "title": "Retail",
+        "url": "/for-retails",
+        "classes": []
+      },
+      {
+        "id": 6093,
+        "title": "Data Center",
+        "url": "/for-data-centers",
+        "classes": []
+      }
+    ]
+  },
+  {
+    "id": 6097,
+    "title": "About Us",
+    "url": "/about-us",
+    "classes": [
+      "about-menu"
+    ],
+    "children": [
+      {
+        "id": 6098,
+        "title": "About Us",
+        "url": "/about-us",
+        "classes": []
+      },
+      {
+        "id": 6102,
+        "title": "Privacy Policy",
+        "url": "/privacy-policy",
+        "classes": []
+      },
+      {
+        "id": 6105,
+        "title": "License",
+        "url": "/license",
+        "classes": []
+      },
+      {
+        "id": 6106,
+        "title": "Blog",
+        "url": "/blog",
+        "classes": [
+          "blog-menu-updated"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6107,
+    "title": "Why Us",
+    "url": "#",
+    "classes": [],
+    "children": [
+      {
+        "id": 6111,
+        "title": "Reviews",
+        "url": "/reviews",
+        "classes": [
+          "reviews-menu-icon"
+        ]
+      },
+      {
+        "id": 6115,
+        "title": "Permit Guarantee",
+        "url": "/permit-guarantee",
+        "classes": []
+      }
+    ]
+  }
+]

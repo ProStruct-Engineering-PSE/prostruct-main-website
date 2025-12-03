@@ -1,0 +1,22 @@
+{
+  "form_type": "hubspot",
+  "hubspot": {
+    "portal_id": "45924609",
+    "form_id": "c4838a9d-2c8c-4899-a15c-c70449b34433",
+    "region": "na1",
+    "shortcode": "[hubspot portal=\"45924609\" id=\"c4838a9d-2c8c-4899-a15c-c70449b34433\" type=\"form\"]",
+    "script_url": "https://js.hsforms.net/forms/v2.js"
+  },
+  "chilipiper": {
+    "enabled": false,
+    "tenant_domain": "prostructengineering",
+    "router_name": "inbound_router",
+    "script_url": "https://js.chilipiper.com/marketing.js",
+    "note": "ChiliPiper integration is commented out in WordPress but available if needed"
+  },
+  "engagebay": {
+    "enabled": false,
+    "note": "EngageBay subscription cancelled - no longer in use"
+  }
+}
+

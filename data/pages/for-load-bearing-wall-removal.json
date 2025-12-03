@@ -1,0 +1,57 @@
+{
+  "page_id": "6028",
+  "title": "Structural Engineer for<br>Load-bearing Wall Removal",
+  "slug": "for-load-bearing-wall-removal",
+  "template": "service-home-addition-remodel",
+  "url": "https://prostructengineering.com/idaho-structural-engineers/services/for-load-bearing-wall-removal/",
+  "featured_media": "5978",
+  "acf": {
+    "add_adu_type_lists": [
+      {
+        "content": "This involves removing a load-bearing wall and installing a new support system to redistribute the weight.",
+        "heading": "Bearing Wall Removal"
+      },
+      {
+        "content": "This involves adding a new load-bearing wall to support additional weight or to create a new room or space in a structure.",
+        "heading": "Bearing Wall Addition"
+      },
+      {
+        "content": "This involves removing an existing load-bearing wall and installing a new load-bearing wall in its place.",
+        "heading": "Bearing Wall Replacement"
+      },
+      {
+        "content": "This involves adding support to an existing load-bearing wall to strengthen it and prevent structural problems.",
+        "heading": "Bearing Wall Reinforcement"
+      },
+      {
+        "content": "The placement and size of the opening must be carefully considered to ensure that the load-bearing capacity of the wall is not compromised.",
+        "heading": "Window or Door Cutout in a Bearing Wall"
+      }
+    ],
+    "banner_content": "Load-bearing walls transfer weight of your house to the foundation. Removing or altering them improperly can compromise the building's stability and safety. Our experienced <strong>Idaho</strong> licensed structural engineers can perform the required <strong>load calculations</strong>, <strong>create structural plans</strong> and <strong>permit sets</strong> for construction approval.",
+    "footer_parallax_image": "173",
+    "hide_what_we_do_section": "1",
+    "pyramid_image": "235",
+    "right_image": "303",
+    "section_content_get_started": "<p>Schedule a <strong>Free Consultation</strong> With One of Our <strong>Expert Structural Engineers</strong> for your <strong>Load-bearing Wall Project.</strong></p>\r\n\r\n<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\" class=\"btn c-get-quote-btn\"><strong>CONTACT US TODAY <i class=\"fa-solid fa-chevron-right\"></i></strong></a>",
+    "section_heading_and_content": "<h2 class=\"text-center\">Load-bearing Wall Project Types</h2>\r\n<p class=\"text-center\">Removing load-bearing walls can be a great way to achieve open-concept interiors. It's important to consult a qualified structural engineer before making any changes to a load-bearing wall.</p>\r\n<p class=\"text-center\">Our structural engineers can assist by performing the necessary load calculations to determine safe structural specifications. Additionally, they can develop structural plans and permit sets for the following:</p>",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br>Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ],
+    "what_we_do_boxes": "1"
+  }
+}

@@ -1,0 +1,1234 @@
+/*
+ * PPC Landing Pages Styles
+ * ProStruct Engineering - Geo, Service, and Intent-Based Templates
+ */
+
+/* ===========================
+   SHARED STYLES - All Templates
+   =========================== */
+
+/* Button theme overrides for PPC landing pages */
+.btn-primary {
+  background: #006a4e !important;
+  border-color: #006a4e !important;
+  color: #ffffff;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background: #0f2e48;
+  border-color: #0f2e48;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-outline-primary {
+  border-color: #006a4e !important;
+  color: #006a4e !important;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus {
+  background-color: #006a4e !important;
+  border-color: #006a4e !important;
+  color: #ffffff !important;
+}
+
+/* Trust Badges */
+.trust-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.badge-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.badge-item i {
+  color: #89d6c2;
+  font-size: 16px;
+}
+
+/* Hero Form Container */
+.hero-form-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 35px;
+  box-shadow: 0 15px 50px rgba(0, 0, 0, 0.4);
+}
+
+.hero-form-container h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 26px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.hero-form-container .form-subtext {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+
+.hero-form-container .hbspt-form,
+.hero-form-container .engagebay-forms {
+  background: transparent !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  max-width: 100% !important;
+}
+
+/* Service Cards */
+.service-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 30px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-color: #006a4e;
+}
+
+.service-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #006a4e 0%, #89d6c2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.service-icon i {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.service-card h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 24px;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.service-features {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  flex-grow: 1;
+}
+
+.service-features li {
+  padding: 8px 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 14px;
+  color: #252525;
+}
+
+.service-features li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #006a4e;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn-service-cta {
+  display: inline-block;
+  color: #006a4e;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  margin-top: auto;
+  padding-top: 15px;
+}
+
+.btn-service-cta:hover {
+  color: #0f2e48;
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+/* Process Steps */
+.process-step {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.process-step:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.step-number {
+  width: 60px;
+  height: 60px;
+  background: #006a4e;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+}
+
+.process-step h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 20px;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.process-step p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+/* Accordion Styles */
+.accordion-item {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.accordion-button {
+  font-family: var(--rubik);
+  font-weight: 600;
+  font-size: 18px;
+  color: #252525;
+  background: #ffffff;
+  padding: 20px 25px;
+}
+
+.accordion-button:not(.collapsed) {
+  background: #006a4e;
+  color: #ffffff;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+  border-color: #006a4e;
+}
+
+.accordion-body {
+  padding: 20px 25px;
+  font-size: 15px;
+  line-height: 1.8;
+  color: #666;
+}
+
+/* ===========================
+   GEO-BASED TEMPLATE STYLES
+   =========================== */
+
+/* Geo Hero Section */
+.geo-hero-section {
+  background-image: linear-gradient(
+      rgba(15, 46, 72, 0.55),
+      rgba(0, 106, 78, 0.55)
+    ),
+    url("../images/structural-engineer-southern-california.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #ffffff;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.geo-hero-content h1 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.geo-hero-content .lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+/* Service Areas Bar */
+.service-areas-bar {
+  background: linear-gradient(135deg, #006a4e, #0f2e48);
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.service-areas-bar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+}
+
+.service-areas-bar h3 i {
+  margin-right: 10px;
+}
+
+.service-areas-bar p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Geo Process Section */
+.geo-process-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.geo-process-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* Geo Services Section */
+.geo-services-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.geo-services-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* County Coverage Section */
+.county-coverage-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.county-coverage-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* County Accordion */
+.county-accordion .accordion-item {
+  border: 1px solid rgba(0, 106, 78, 0.2);
+  margin-bottom: 15px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.county-accordion .accordion-item:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.county-accordion .accordion-button {
+  background: linear-gradient(135deg, #f8f9fa, #ffffff);
+  color: #0f2e48;
+  font-weight: 600;
+  padding: 18px 25px;
+  border: none;
+  font-size: 17px;
+}
+
+.county-accordion .accordion-button:not(.collapsed) {
+  background: linear-gradient(135deg, #006a4e, #0f2e48);
+  color: #ffffff;
+  box-shadow: none;
+}
+
+.county-accordion .accordion-button .county-icon {
+  font-size: 20px;
+  color: #006a4e;
+  margin-right: 12px;
+}
+
+.county-accordion .accordion-button:not(.collapsed) .county-icon {
+  color: #89d6c2;
+}
+
+.county-accordion .accordion-body {
+  background: #ffffff;
+  padding: 25px 30px;
+}
+
+/* Geo FAQ Section */
+.geo-faq-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.geo-faq-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* ===========================
+   SERVICE-BASED TEMPLATE STYLES
+   =========================== */
+
+/* Service Hero Section */
+.service-hero-section {
+  background-image: linear-gradient(
+      rgba(15, 46, 72, 0.55),
+      rgba(0, 106, 78, 0.55)
+    ),
+    url("../images/structural-engineer-southern-california.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #ffffff;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.service-hero-content h1 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.service-hero-content .lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+/* Services Overview Bar */
+.services-overview-bar {
+  background: linear-gradient(135deg, #006a4e, #0f2e48);
+  color: #ffffff;
+  padding: 20px 0;
+}
+
+.services-overview-bar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+}
+
+.services-overview-bar h3 i {
+  margin-right: 10px;
+}
+
+.services-overview-bar p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Detailed Services Section */
+.detailed-services-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.detailed-services-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* Service Process Section */
+.service-process-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.service-process-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* Project Types Section */
+.project-types-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.project-types-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+.project-type-card {
+  background: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 35px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.project-type-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-color: #006a4e;
+}
+
+.project-type-card h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 26px;
+  color: #252525;
+  margin-bottom: 20px;
+}
+
+.project-type-card h3 i {
+  color: #006a4e;
+  margin-right: 12px;
+}
+
+.project-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.project-list li {
+  padding: 10px 0;
+  padding-left: 25px;
+  position: relative;
+  font-size: 15px;
+  color: #252525;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.project-list li:last-child {
+  border-bottom: none;
+}
+
+.project-list li:before {
+  content: "→";
+  position: absolute;
+  left: 0;
+  color: #006a4e;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/* Service FAQ Section */
+.service-faq-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.service-faq-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* ===========================
+   INTENT-BASED TEMPLATE STYLES
+   =========================== */
+
+/* Intent Hero Section */
+.intent-hero-section {
+  background-image: linear-gradient(
+      rgba(15, 46, 72, 0.65),
+      rgba(0, 106, 78, 0.65)
+    ),
+    url("../images/structural-engineer-southern-california.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+  color: #ffffff;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+}
+
+.intent-hero-content h1 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.intent-hero-content .lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e0e0e0;
+  margin-bottom: 30px;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.cta-buttons .btn {
+  padding: 14px 30px;
+  font-weight: 700;
+}
+
+/* Urgency Bar */
+.urgency-bar {
+  background: linear-gradient(135deg, #006a4e, #0f2e48);
+  color: #ffffff;
+  padding: 20px 0;
+  animation: pulse-alert 2s infinite;
+}
+
+.urgency-bar h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 5px 0;
+  color: #ffffff;
+}
+
+.urgency-bar h3 i {
+  margin-right: 10px;
+}
+
+.urgency-bar p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Benefits Section */
+.benefits-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.benefits-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+.benefit-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.benefit-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-color: #006a4e;
+}
+
+.benefit-icon {
+  width: 70px;
+  height: 70px;
+  background: linear-gradient(135deg, #006a4e 0%, #89d6c2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.benefit-icon i {
+  font-size: 32px;
+  color: #ffffff;
+}
+
+.benefit-card h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 22px;
+  color: #252525;
+  margin-bottom: 15px;
+}
+
+.benefit-card p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #666;
+  margin: 0;
+}
+
+/* Intent Process Section */
+.intent-process-section {
+  padding: 80px 0;
+  background: #ffffff;
+}
+
+.intent-process-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+.process-step-intent {
+  background: linear-gradient(135deg, #006a4e, #0f2e48);
+  border-radius: 8px;
+  padding: 35px;
+  text-align: center;
+  height: 100%;
+  box-shadow: 0 5px 20px rgba(0, 106, 78, 0.3);
+  transition: all 0.3s ease;
+  color: #ffffff;
+}
+
+.process-step-intent:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(0, 106, 78, 0.4);
+}
+
+.step-number-intent {
+  width: 70px;
+  height: 70px;
+  background: #ffffff;
+  color: #006a4e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 0 auto 20px;
+}
+
+.process-step-intent h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 22px;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.process-step-intent p {
+  font-size: 15px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+/* Quick Services Section */
+.quick-services-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.quick-services-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+.quick-service-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  height: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.quick-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border-color: #006a4e;
+}
+
+.service-icon-small {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #006a4e 0%, #89d6c2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.service-icon-small i {
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.service-content {
+  flex-grow: 1;
+}
+
+.service-content h3 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 20px;
+  color: #252525;
+  margin-bottom: 10px;
+}
+
+.service-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.btn-link {
+  color: #006a4e;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.btn-link:hover {
+  color: #0f2e48;
+  transform: translateX(5px);
+  text-decoration: none;
+}
+
+/* Trust Section */
+.trust-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #0f2e48, #006a4e);
+  color: #ffffff;
+}
+
+.trust-content h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.trust-content .lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.trust-stats {
+  margin: 40px 0;
+}
+
+.stat-item {
+  padding: 20px;
+}
+
+.stat-number {
+  font-size: 48px;
+  font-weight: 700;
+  color: #89d6c2;
+  margin-bottom: 10px;
+}
+
+.stat-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 80px 0;
+  background: linear-gradient(135deg, #ff6b35, #ff8c5a);
+  color: #ffffff;
+}
+
+.cta-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #ffffff;
+}
+
+.cta-section .lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.cta-section .btn-outline-light {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  background: transparent;
+  padding: 14px 30px;
+  font-weight: 700;
+}
+
+.cta-section .btn-outline-light:hover {
+  background: #ffffff;
+  color: #ff6b35;
+}
+
+.availability-note {
+  margin-top: 20px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.availability-note p {
+  margin: 0;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.availability-note i {
+  margin-right: 8px;
+}
+
+/* Reviews Section */
+.reviews-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.reviews-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+  margin-bottom: 20px;
+}
+
+.reviews-section p {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+/* Override min-width from other plugin that shares .ti-inner class */
+.reviews-section .ti-inner {
+  min-width: unset !important;
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+/* Intent FAQ Section */
+.intent-faq-section {
+  padding: 80px 0;
+  background: #f8f7fc;
+}
+
+.intent-faq-section h2 {
+  font-family: var(--rubik);
+  font-weight: 700;
+  font-size: 42px;
+  color: #252525;
+}
+
+/* ===========================
+   RESPONSIVE STYLES
+   =========================== */
+
+@media (max-width: 991.98px) {
+  .geo-hero-content h1,
+  .service-hero-content h1,
+  .intent-hero-content h1,
+  .geo-process-section h2,
+  .geo-services-section h2,
+  .county-coverage-section h2,
+  .geo-faq-section h2,
+  .detailed-services-section h2,
+  .service-process-section h2,
+  .project-types-section h2,
+  .service-faq-section h2,
+  .benefits-section h2,
+  .intent-process-section h2,
+  .quick-services-section h2,
+  .trust-content h2,
+  .cta-section h2,
+  .intent-faq-section h2 {
+    font-size: 32px;
+    line-height: 1.2;
+  }
+
+  .geo-hero-section,
+  .service-hero-section,
+  .intent-hero-section {
+    padding: 50px 0;
+    min-height: auto;
+  }
+
+  .hero-form-container {
+    margin-top: 30px;
+  }
+
+  .trust-badges {
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .geo-hero-content h1,
+  .service-hero-content h1 {
+    font-size: 28px;
+  }
+
+  .intent-hero-content h1 {
+    font-size: 32px;
+  }
+
+  .geo-hero-content .lead,
+  .service-hero-content .lead,
+  .intent-hero-content .lead {
+    font-size: 16px;
+  }
+
+  .hero-form-container {
+    padding: 25px;
+  }
+
+  .hero-form-container h3 {
+    font-size: 22px;
+  }
+
+  .service-areas-bar h3,
+  .services-overview-bar h3,
+  .urgency-bar h3 {
+    font-size: 18px;
+  }
+
+  .service-areas-bar p,
+  .services-overview-bar p,
+  .urgency-bar p {
+    font-size: 14px;
+  }
+
+  .geo-process-section,
+  .geo-services-section,
+  .county-coverage-section,
+  .geo-faq-section,
+  .detailed-services-section,
+  .service-process-section,
+  .project-types-section,
+  .service-faq-section,
+  .benefits-section,
+  .intent-process-section,
+  .quick-services-section,
+  .trust-section,
+  .cta-section,
+  .intent-faq-section {
+    padding: 50px 0;
+  }
+
+  .geo-process-section h2,
+  .geo-services-section h2,
+  .county-coverage-section h2,
+  .geo-faq-section h2,
+  .detailed-services-section h2,
+  .service-process-section h2,
+  .project-types-section h2,
+  .service-faq-section h2,
+  .benefits-section h2,
+  .intent-process-section h2,
+  .quick-services-section h2,
+  .trust-content h2,
+  .cta-section h2,
+  .intent-faq-section h2 {
+    font-size: 26px;
+  }
+
+  .reviews-section {
+    padding: 60px 0;
+  }
+
+  .reviews-section h2 {
+    font-size: 28px;
+  }
+
+  .reviews-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .service-card {
+    padding: 25px;
+  }
+
+  .service-icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .service-icon i {
+    font-size: 28px;
+  }
+
+  .service-card h3 {
+    font-size: 20px;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta-buttons .btn {
+    width: 100%;
+    margin: 0 !important;
+  }
+
+  .quick-service-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-icon-small {
+    margin: 0 auto 15px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+
+  .stat-label {
+    font-size: 14px;
+  }
+
+  .accordion-button {
+    font-size: 16px;
+    padding: 15px 20px;
+  }
+
+  .accordion-body {
+    padding: 15px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .intent-hero-content h1 {
+    font-size: 28px;
+  }
+
+  .reviews-section {
+    padding: 50px 0;
+  }
+
+  .reviews-section h2 {
+    font-size: 24px;
+  }
+
+  .reviews-section p {
+    font-size: 15px;
+    margin-bottom: 25px;
+  }
+
+  .stat-number {
+    font-size: 28px;
+  }
+
+  .stat-label {
+    font-size: 12px;
+  }
+
+  .county-accordion .accordion-button,
+  .accordion-button {
+    padding: 15px 20px;
+    font-size: 15px;
+  }
+
+  .county-accordion .accordion-body,
+  .accordion-body {
+    padding: 20px 15px;
+  }
+
+  .project-type-card {
+    padding: 25px;
+  }
+
+  .project-type-card h3 {
+    font-size: 22px;
+  }
+
+  .process-step-intent {
+    padding: 25px;
+  }
+
+  .step-number-intent {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+
+  .process-step-intent h3 {
+    font-size: 20px;
+  }
+}

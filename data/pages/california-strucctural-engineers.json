@@ -1,0 +1,109 @@
+{
+  "page_id": "809",
+  "title": "California Structural Engineers",
+  "slug": "california-strucctural-engineers",
+  "template": "home-page",
+  "url": "https://prostructengineering.com/california-strucctural-engineers/",
+  "featured_media": "0",
+  "acf": {
+    "add_contact_details": "<ul>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>450 Folsom Street, #1502 <br>San Francisco CA 94105</li>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>1177 Branham Ln, #1008 <br>San Jose CA 95118</li>\r\n              <li><i class=\"fas fa-map-marker-alt\" aria-hidden=\"true\"></i>1601 S. Fourth Street<br>Alhambra CA 91803</li>\r\n              <li><i class=\"fas fa-phone\" aria-hidden=\"true\"></i><a href=\"tel:+1 844-750-0773\">+1 844-750-0773</a> | <a href=\"tel:+1 6509771073\">+1 650-977-1073</a</li>\r\n</ul>",
+    "add_social": [
+      {
+        "social_icon_class": "<i class=\"fab fa-instagram\"></i>",
+        "social_link": "https://instagram.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-twitter\"></i>",
+        "social_link": "https://twitter.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-facebook-f\"></i>",
+        "social_link": "https://facebook.com"
+      },
+      {
+        "social_icon_class": "<i class=\"fab fa-linkedin\"></i>",
+        "social_link": "https://linkedin.com.com"
+      }
+    ],
+    "banner_bottom_content_mobile": "Our motivation is to improve California Homeowners' home-building experience by delivering high-quality Structural Engineering Plans for permit approval smoothly.\r\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential Building Permits.\r\n\r\nWe’re experienced, reliable, and budget-friendly.",
+    "banner_content": "<h1>Trust our Experienced\r\nStructural Engineers for your\r\n<strong>Residential</strong> Project Needs</h1>\r\n<span class=\"mbl-hide\">At ProStruct Engineering we take pride in professionalism.</span> Our motivation is to improve <strong>California</strong> Homeowners' home-building experience by delivering high-quality Structural Engineering Plans for permit approval smoothly.\r\nWe have a 100% success rate<sup>(1)</sup> in obtaining Residential Building Permits.\r\n\r\nWe’re experienced, reliable, and budget-friendly.",
+    "banner_content_mobile": "<h1>Experienced <strong>California Structural Engineers</strong> for your <strong>Residential</strong> Project Needs</h1>",
+    "banner_slider": [
+      {
+        "upload_slider_image": "163"
+      },
+      {
+        "upload_slider_image": "164"
+      },
+      {
+        "upload_slider_image": "162"
+      }
+    ],
+    "contact_widget_heading": "Contact information",
+    "copyright_text": "© 2023 ProStruct Engineering Inc. All Rights Reserved.",
+    "footer_background_image": "75",
+    "footer_bottom_content": "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.",
+    "footer_logo": "7",
+    "footer_site_description": "Our structural engineers offer dependable professional structural engineering services for residential building permits at reasonable prices. Trust us to deliver high-quality structural plans.",
+    "footer_top_image": "173",
+    "nav_button_label": "Contact Us",
+    "nav_button_link": "https://prostructengineering.com/contact-us/",
+    "project_type_images": [
+      {
+        "upload_image": "166"
+      },
+      {
+        "upload_image": "167"
+      },
+      {
+        "upload_image": "178"
+      }
+    ],
+    "reasons": [
+      {
+        "description": "<ul>\r\n \t<li>35+ Years</li>\r\n \t<li>2,000+ Projects</li>\r\n \t<li>New Home, ADU, Addition, Remodel, and More</li>\r\n</ul>",
+        "heading": "Experienced"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Local Pricing</li>\r\n \t<li>Fixed &amp; Transparent</li>\r\n \t<li>No Surprises</li>\r\n</ul>",
+        "heading": "Budget-friendly"
+      },
+      {
+        "description": "<ul>\r\n \t<li>California PE License</li>\r\n \t<li>Insured</li>\r\n</ul>",
+        "heading": "Licensed & Insured"
+      },
+      {
+        "description": "<ul>\r\n \t<li>Proactive &amp; Responsive</li>\r\n \t<li>Quick Turnaround</li>\r\n</ul>",
+        "heading": "Responsive & Fast"
+      },
+      {
+        "description": "<ul>\r\n \t<li><strong>Our Core Values:</strong> Integrity, Responsibility, Reliability, Ethics, And Maintaining The Highest Quality Standards For Structural Plans</li>\r\n \t<li>Adhering To These Standards Has Helped Us Build Trust And Credibility With Our Clients</li>\r\n</ul>",
+        "heading": "Professionalism"
+      }
+    ],
+    "section_background_image": "43",
+    "section_content_about_us": "ProStruct Engineering’s experienced team of <strong>Professional Structural Engineers</strong> provides <strong>high-quality\r\nengineering</strong> plans that comply with building permit requirements for residential projects.\r\n\r\nOur goal is to <strong>enhance the home-building journey</strong> of California homeowners by offering <strong>budget-\r\nfriendly</strong> services and acting as a dependable ally throughout the process.\r\n\r\nOur services include <strong>Structural Site Inspections, Structural Calculations,</strong> creating <strong>Structural Plans,</strong>\r\nand preparing <strong>Structural Permit Sets.</strong>",
+    "section_content_about_us_mobile": "Our services include <strong>Structural Site Inspections, Structural Calculations,</strong> creating <strong>Structural Plans,</strong>\r\nand preparing <strong>Structural Permit Sets.</strong>\r\n\r\nOur goal is to <strong>enhance the home-building journey</strong> of California homeowners by offering <strong>budget-\r\nfriendly</strong> services and acting as a dependable ally throughout the process.",
+    "section_content_pt": "<h3>Structural Engineering</h3>\r\n<h2>Project Types</h2>\r\nOur Structural Engineers’ expertise in providing Structural Engineering Services extends to a variety of Residential Project Types, including:\r\n<div class=\"row\">\r\n<div class=\"col-md-6\">\r\n<ul>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" /> New Custom Home</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />ADU</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Home Addition/Remodel</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Load Bearing Wall Removal</li>\r\n</ul>\r\n</div>\r\n<div class=\"col-md-6\">\r\n<ul>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Retaining Wall</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Deck, Patio &amp; Porch</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Foundation Design &amp; More</li>\r\n \t<li><img src=\"https://prostructengineering.com/wp-content/uploads/2023/03/icon.svg\" name=\"icon\" />Construction Administration</li>\r\n</ul>\r\n</div>\r\n</div>\r\n<a class=\"btn c-get-quote-btn\" href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\">GET YOUR FREE QUOTE <i class=\"fa-solid fa-chevron-right\"></i></a>",
+    "section_heading_about_us": "Our Structural Engineering Services",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "section_heading_wcu": "Why Choose Us?",
+    "select_form": "Select Form Field",
+    "social_visibility": "Hide",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "169"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br/>Free Express Quote<br/>Within 24 Hours",
+        "step_image": "170"
+      },
+      {
+        "step_details": "We Start Your Project, With <br/><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "171"
+      }
+    ],
+    "tag_line": "Professional Structural Engineers"
+  }
+}

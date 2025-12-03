@@ -1,0 +1,122 @@
+{
+  "or": {
+    "code": "or",
+    "name": "Oregon",
+    "url_slug": "oregon-structural-engineers",
+    "addresses": ["Oregon Address (to be extracted)"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_or",
+    "footer_menu_1": "footer_menu_or_1",
+    "footer_menu_2": "footer_menu_or_2"
+  },
+  "wa": {
+    "code": "wa",
+    "name": "Washington",
+    "url_slug": "washington-structural-engineers",
+    "addresses": [
+      "2226 Eastlake Ave E #1018, Seattle, WA 98102",
+      "2624 North Division St. #1006 Spokane, WA 99207"
+    ],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_wa",
+    "footer_menu_1": "footer_menu_wa_1",
+    "footer_menu_2": "footer_menu_wa_2"
+  },
+  "ca": {
+    "code": "ca",
+    "name": "California",
+    "url_slug": "california-structural-engineers",
+    "addresses": [
+      "450 Folsom Street, #1502, San Francisco CA 94105",
+      "901 H St #120, Sacramento CA 95814",
+      "1177 Branham Ln, #1008, San Jose CA 95118",
+      "5708 Hollister Ave, Ste A, Goleta CA 93117",
+      "1601 S. Fourth Street, Alhambra CA 91803",
+      "9528 Miramar Rd, #1260, San Diego CA 92126"
+    ],
+    "phone_numbers": ["+1 855-665-8731", "+1 650-977-1073"],
+    "header_menu": "header_state_ca",
+    "footer_menu_1": "footer_menu_ca_1",
+    "footer_menu_2": "footer_menu_ca_2"
+  },
+  "co": {
+    "code": "co",
+    "name": "Colorado",
+    "url_slug": "colorado-structural-engineers",
+    "addresses": ["Colorado Address (to be extracted)"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_co",
+    "footer_menu_1": "footer_menu_co_1",
+    "footer_menu_2": "footer_menu_co_2"
+  },
+  "nv": {
+    "code": "nv",
+    "name": "Nevada",
+    "url_slug": "nevada-structural-engineers",
+    "addresses": ["5150 Mae Anne Ave, #405, Reno, NV 89523"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_nv",
+    "footer_menu_1": "footer_menu_nv_1",
+    "footer_menu_2": "footer_menu_nv_2"
+  },
+  "ut": {
+    "code": "ut",
+    "name": "Utah",
+    "url_slug": "utah-structural-engineers",
+    "addresses": ["2795 E. Cottonwood Parkway, #300, Salt Lake City, UT 84121"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_ut",
+    "footer_menu_1": "footer_menu_ut_1",
+    "footer_menu_2": "footer_menu_ut_2"
+  },
+  "az": {
+    "code": "az",
+    "name": "Arizona",
+    "url_slug": "arizona-structural-engineers",
+    "addresses": ["8390 E Via De Ventura, Suite F-110, Scottsdale, AZ 85258"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_az",
+    "footer_menu_1": "footer_menu_az_1",
+    "footer_menu_2": "footer_menu_az_2"
+  },
+  "id": {
+    "code": "id",
+    "name": "Idaho",
+    "url_slug": "idaho-structural-engineers",
+    "addresses": ["8059 W. Preece Drive #1063, Boise, ID 83704"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_id",
+    "footer_menu_1": "footer_menu_id_1",
+    "footer_menu_2": "footer_menu_id_2"
+  },
+  "tx": {
+    "code": "tx",
+    "name": "Texas",
+    "url_slug": "texas-structural-engineers",
+    "addresses": ["3419 Westminster Ave, #1009, Dallas, TX 75205"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_tx",
+    "footer_menu_1": "footer_menu_tx_1",
+    "footer_menu_2": "footer_menu_tx_2"
+  },
+  "ga": {
+    "code": "ga",
+    "name": "Georgia",
+    "url_slug": "georgia-structural-engineers",
+    "addresses": ["741 Piedmont Ave NE, Ste 200, Atlanta, GA 30308"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_ga",
+    "footer_menu_1": "footer_menu_ga_1",
+    "footer_menu_2": "footer_menu_ga_2"
+  },
+  "nm": {
+    "code": "nm",
+    "name": "New Mexico",
+    "url_slug": "new-mexico-structural-engineers",
+    "addresses": ["8531 Indian School Rd NE #1032 Albuquerque, NM 87112"],
+    "phone_numbers": ["+1 844-750-0773"],
+    "header_menu": "header_state_mx",
+    "footer_menu_1": "footer_menu_mx_1",
+    "footer_menu_2": "footer_menu_mx_2"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "page_id": "5702",
+  "title": "Structural Engineer for Retaining Wall",
+  "slug": "retaining-wall",
+  "template": "service-home-addition-remodel",
+  "url": "https://prostructengineering.com/new-mexico-structural-engineers/services/retaining-wall/",
+  "featured_media": "5673",
+  "acf": {
+    "add_adu_type_lists": [
+      {
+        "content": "These are retaining walls made from Concrete Masonry Units (CMUs), which are essentially concrete blocks. In a CMU retaining wall, the concrete blocks are stacked and held together with mortar to create a durable and strong structure capable of holding back soil, rock, or other materials.",
+        "heading": "CMU Retaining Wall"
+      },
+      {
+        "content": "Cantilever walls are reinforced concrete walls that have a footing that extends backwards into the soil. They are commonly used for retaining walls with medium heights.",
+        "heading": "Cantilever Retaining Wall"
+      },
+      {
+        "content": "Concrete retaining walls are popular in Mexico due to their durability and strength. They are often used for larger and taller retaining walls that require significant support.",
+        "heading": "Concrete Retaining Wall"
+      },
+      {
+        "content": "Gabion walls are wire cages filled with rocks or other materials. They are cost-effective and easy to install, making them a popular choice for smaller retaining walls.",
+        "heading": "Gabion Retaining Wall"
+      },
+      {
+        "content": "Gravity walls use the weight of the wall to resist the pressure from the soil. They are typically made of concrete or stone and are ideal for smaller retaining walls with low to medium heights.",
+        "heading": "Gravity Retaining Wall"
+      }
+    ],
+    "banner_content": "Retaining walls are structures designed to <strong>hold back soil, rock, or other materials, creating a level surface</strong> for construction, landscaping, or other purposes. A faulty retaining wall can pose significant risks to people and property, as well as create liability issues for the wall owner.\r\n\r\nOur experienced <strong>New</strong> <strong>Mexico</strong> Licensed Structural Engineers can perform necessary <strong>Load Calculations</strong>, prepare <strong>Structural Plans</strong>, and produce <strong>Permit Sets</strong> for stable retaining wall structures",
+    "footer_parallax_image": "173",
+    "hide_what_we_do_section": "1",
+    "pyramid_image": "235",
+    "right_image": "302",
+    "section_content_get_started": "<p>Schedule a <strong>Free Consultation</strong> With One of Our <strong>Expert Structural Engineers</strong> for your <strong>Retaining Wall Project.</p>\r\n\r\n<a href=\"#\" data-bs-toggle=\"modal\" data-bs-target=\"#contactquotemodal\" class=\"btn c-get-quote-btn\"><strong>CONTACT US TODAY <i class=\"fa-solid fa-chevron-right\"></i></strong></a>",
+    "section_heading_and_content": "<h2 class=\"text-center\">Retaining Wall Types</h2>\r\n<p class=\"text-center\">Our Structural Engineers select the ideal retaining wall material for New Mexico projects based on soil conditions and slope steepness. We then perform <strong>load calculations</strong> to ensure structural safety, and create <strong>structural plans</strong> and <strong>permit sets</strong> for <strong>Concrete, Reinforced Concrete or CMU</strong> retaining walls .</p>",
+    "section_heading_get_started": "Ready To Get Started?",
+    "section_heading_hiw": "How It Works: Its Fast, Easy & Convenient.",
+    "select_form": "hubshotens",
+    "steps": [
+      {
+        "step_details": "Share Your <span>Requirements</span>, Including Existing Plans/ Designs if Available",
+        "step_image": "470"
+      },
+      {
+        "step_details": "Get a <span>No-obligation</span>,<br>Free Express Quote",
+        "step_image": "471"
+      },
+      {
+        "step_details": "We Start Your Project, With <br><span>Quick Delivery</span> in 2-3 Weeks for Most Projects",
+        "step_image": "472"
+      }
+    ]
+  }
+}
