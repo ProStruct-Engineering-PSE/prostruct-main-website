@@ -237,8 +237,8 @@ export function Footer() {
               <Image
                 src={FOOTER_LOGO_URL}
                 alt="ProStruct Engineering Logo"
-                width={200}
-                height={50}
+                width={250}
+                height={70}
               />
             </Link>
 

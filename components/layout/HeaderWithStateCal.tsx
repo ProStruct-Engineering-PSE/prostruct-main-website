@@ -120,7 +120,7 @@ export function HeaderWithStateCal() {
             <Image
               src={LOGO_URL}
               alt="ProStruct Engineering Logo"
-              width={217}
+              width={180}
               height={50}
               priority
             />
@@ -173,7 +173,7 @@ export function HeaderWithStateCal() {
                 <Image
                   src={LOGO_URL}
                   alt="ProStruct Engineering Logo"
-                  width={200}
+                  width={180}
                   height={50}
                 />
               </Link>

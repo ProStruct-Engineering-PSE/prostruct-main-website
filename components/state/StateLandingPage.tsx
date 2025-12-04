@@ -85,15 +85,15 @@ const STEP_IMAGES = [
 const INFO_IMAGE = {
   url: "/images/triangle.png",
   alt: "ProStruct Features: Low Cost, High Speed, High Quality",
-  width: 1493,
-  height: 813,
+  width: 350,
+  height: 200,
 };
 
 const PERMIT_BADGE = {
   url: "/images/badge.png",
   alt: "Permit Guarantee Badge",
-  width: 150,
-  height: 150,
+  width: 120,
+  height: 120,
 };
 
 const PROJECT_ICON = {

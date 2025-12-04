@@ -49,10 +49,10 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
-img {
+/* img {
   max-width: 100%;
   height: auto !important;
-}
+} */
 
 .container {
   max-width: 1280px;

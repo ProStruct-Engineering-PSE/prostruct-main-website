@@ -135,7 +135,6 @@ export default function ContactForm({
               animation: "spin 1s linear infinite",
             }}
           ></div>
-          <p style={{ color: "#666" }}>Loading form...</p>
         </div>
       )}
 

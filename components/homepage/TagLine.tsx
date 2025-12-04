@@ -5,8 +5,8 @@ const TAG_LINE = "Professional Structural & Civil Engineers";
 const INFO_IMAGE = {
   url: "/images/triangle.png",
   alt: "ProStruct Features: Low Cost, High Speed, High Quality",
-  width: 1493,
-  height: 813,
+  width: 350,
+  height: 200,
 };
 
 export function TagLine() {
