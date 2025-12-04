@@ -256,7 +256,7 @@ export function StateLandingPage({ content }: StateLandingPageProps) {
               </div>
             </div>
             <div className="c-structure-service-mobile">
-              <div>{parse(content.aboutMobileHtml)}</div>
+              <div className="text-white">{parse(content.aboutMobileHtml)}</div>
             </div>
           </div>
         </div>

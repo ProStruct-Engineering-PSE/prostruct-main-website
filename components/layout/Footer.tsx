@@ -8,7 +8,6 @@ import { useModal } from "@/components/shared/ModalProvider";
 // Embedded data from WordPress
 const FOOTER_LOGO_URL = "/images/new-logo.svg";
 const FOOTER_BG_IMAGE = "/images/footer-bg.png";
-
 const FOOTER_DESCRIPTION =
   "Our structural & civil engineers offer dependable professional engineering services for residential and commercial building permits at reasonable prices. Trust us to deliver high-quality structural & civil plans.";
 
@@ -16,6 +15,13 @@ const COPYRIGHT_TEXT = "© 2025 ProStruct Engineering Inc. All Rights Reserved."
 
 const FOOTER_DISCLAIMER =
   "(1)This only applies to our scope of work and omits unsuccessful permitting due to external factors like land ownership disputes, existing illegal Construction, flawed Architectural/Design plans, issues with client-provided documents, or the client halting the project for any reason, etc.";
+
+const CALIFORNIA_MAP_IMAGE = {
+  src: "/images/california.svg",
+  alt: "California service map",
+  width: 220,
+  height: 160,
+};
 
 // Default footer menu (column 1)
 const FOOTER_MENU_1 = [
@@ -81,6 +87,17 @@ const isServiceAreaContact = (info: ContactInfo): info is ServiceAreaContact =>
   info.type === "serviceAreas";
 
 // State-specific contact information
+const splitAddress = (address: string): [string, string] => {
+  const parts = address.split(",").map((part) => part.trim());
+  if (parts.length === 1) {
+    return [address.trim(), ""];
+  }
+
+  const line2 = parts.pop() || "";
+  const line1 = parts.join(", ");
+  return [line1, line2];
+};
+
 const STATE_CONTACTS: Record<string, ContactInfo> = {
   default: {
     type: "serviceAreas",
@@ -257,35 +274,107 @@ export function Footer() {
 
           {/* Contact Information */}
           <div className="col-lg-3 col-xl-3 c-footer-address">
-            <h3>Contact information</h3>
+            {currentState === "california" ? (
+              <div className="text-center text-lg-start">
+                <h3>SERVICE AREA</h3>
+                <div className="d-flex flex-column flex-lg-row align-items-center gap-4">
+                  <div className="order-1 order-lg-1 d-flex justify-content-center justify-content-lg-start">
+                    <Image
+                      src={CALIFORNIA_MAP_IMAGE.src}
+                      alt={CALIFORNIA_MAP_IMAGE.alt}
+                      width={CALIFORNIA_MAP_IMAGE.width}
+                      height={CALIFORNIA_MAP_IMAGE.height}
+                      className="img-fluid"
+                    />
+                  </div>
 
-            {isServiceAreaContact(contactInfo) ? (
-              <>
-                <div className="row">
-                  {serviceAreaColumns.map((column, columnIndex) => (
-                    <div className="col-6" key={columnIndex}>
-                      <ul>
-                        {column.map((area) => (
-                          <li key={area.url}>
-                            <i
-                              className="fas fa-map-marker-alt"
-                              aria-hidden="true"
-                            />
-                            <Link
-                              href={area.url}
-                              className="text-white text-decoration-none"
-                            >
-                              {area.name}
-                            </Link>
+                  <div className="order-2 order-lg-2 d-flex flex-column align-items-center align-items-lg-start gap-3 w-100">
+                    {contactInfo.phones.length > 0 && (
+                      <ul className="footer_phone_number_ul w-100 text-center text-lg-start">
+                        {contactInfo.phones.map((phone) => (
+                          <li key={phone} className="my-1">
+                            <span className="d-inline-flex align-items-center gap-2">
+                              <i className="fas fa-phone" aria-hidden="true" />
+                              <a
+                                href={`tel:${phone.replace(/\s/g, "")}`}
+                                className="text-white text-decoration-none text-nowrap"
+                              >
+                                {phone}
+                              </a>
+                            </span>
                           </li>
                         ))}
                       </ul>
-                    </div>
-                  ))}
-                </div>
+                    )}
 
-                {contactInfo.phones.length > 0 && (
-                  <ul className="footer_phone_number_ul">
+                    <div className="w-100 text-center text-lg-start">
+                      <button
+                        type="button"
+                        onClick={openModal}
+                        className="btn c-btn-get-quote w-auto"
+                      >
+                        CONTACT US <i className="fa-solid fa-chevron-right" />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ) : (
+              <>
+                <h3>Contact information</h3>
+
+                {isServiceAreaContact(contactInfo) ? (
+                  <>
+                    <div className="row">
+                      {serviceAreaColumns.map((column, columnIndex) => (
+                        <div className="col-6" key={columnIndex}>
+                          <ul>
+                            {column.map((area) => (
+                              <li key={area.url}>
+                                <i
+                                  className="fas fa-map-marker-alt"
+                                  aria-hidden="true"
+                                />
+                                <Link
+                                  href={area.url}
+                                  className="text-white text-decoration-none"
+                                >
+                                  {area.name}
+                                </Link>
+                              </li>
+                            ))}
+                          </ul>
+                        </div>
+                      ))}
+                    </div>
+
+                    {contactInfo.phones.length > 0 && (
+                      <ul className="footer_phone_number_ul">
+                        {contactInfo.phones.map((phone, index) => (
+                          <li key={index}>
+                            <i className="fas fa-phone" aria-hidden="true" />
+                            <a
+                              href={`tel:${phone.replace(/\s/g, "")}`}
+                              className="text-white text-decoration-none"
+                            >
+                              {phone}
+                            </a>
+                          </li>
+                        ))}
+                      </ul>
+                    )}
+                  </>
+                ) : (
+                  <ul>
+                    {contactInfo.addresses.map((address, index) => (
+                      <li key={index}>
+                        <i
+                          className="fas fa-map-marker-alt"
+                          aria-hidden="true"
+                        />
+                        {address}
+                      </li>
+                    ))}
                     {contactInfo.phones.map((phone, index) => (
                       <li key={index}>
                         <i className="fas fa-phone" aria-hidden="true" />
@@ -299,40 +388,48 @@ export function Footer() {
                     ))}
                   </ul>
                 )}
+                <div className="mt-3 w-100 text-end">
+                  <button
+                    type="button"
+                    onClick={openModal}
+                    className="btn c-btn-get-quote"
+                  >
+                    CONTACT US <i className="fa-solid fa-chevron-right" />
+                  </button>
+                </div>
               </>
-            ) : (
-              <ul>
-                {contactInfo.addresses.map((address, index) => (
-                  <li key={index}>
-                    <i className="fas fa-map-marker-alt" aria-hidden="true" />
-                    {address}
-                  </li>
-                ))}
-                {contactInfo.phones.map((phone, index) => (
-                  <li key={index}>
-                    <i className="fas fa-phone" aria-hidden="true" />
-                    <a
-                      href={`tel:${phone.replace(/\s/g, "")}`}
-                      className="text-white text-decoration-none"
-                    >
-                      {phone}
-                    </a>
-                  </li>
-                ))}
-              </ul>
             )}
-
-            <div className="mt-3 w-100 text-end">
-              <button
-                type="button"
-                onClick={openModal}
-                className="btn c-btn-get-quote"
-              >
-                CONTACT US <i className="fa-solid fa-chevron-right" />
-              </button>
-            </div>
           </div>
         </div>
+
+        {currentState === "california" &&
+          !isServiceAreaContact(contactInfo) &&
+          contactInfo.addresses.length > 0 && (
+            <ul className="contact-info list-unstyled d-none d-lg-flex flex-wrap justify-content-center gap-4 text-white mt-4">
+              {contactInfo.addresses.map((address, index) => {
+                const [line1, line2] = splitAddress(address);
+                return (
+                  <li
+                    key={address}
+                    className="d-flex align-items-start gap-2 px-3 py-2 text-center text-lg-start"
+                    style={{
+                      borderRight:
+                        index === contactInfo.addresses.length - 1
+                          ? "none"
+                          : "1px solid rgba(255,255,255,0.4)",
+                    }}
+                  >
+                    <i className="fas fa-map-marker-alt" aria-hidden="true" />
+                    <span className="text-white small text-nowrap">
+                      {line1}
+                      <br />
+                      {line2}
+                    </span>
+                  </li>
+                );
+              })}
+            </ul>
+          )}
 
         {/* Footer Bottom */}
         <div className="o-footer__content mt-2">
