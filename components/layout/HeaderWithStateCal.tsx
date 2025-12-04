@@ -14,33 +14,41 @@ const HEADER_MENU = [
     classes: ["residential-menu"],
     children: [
       { id: 1245, title: "Services", url: "/services" },
-      { id: 1145, title: "New Custom Home", url: "/for-new-custom-home" },
+      {
+        id: 1145,
+        title: "New Custom Home",
+        url: "/services/for-new-custom-home",
+      },
       {
         id: 1146,
         title: "Home Addition/Remodel",
-        url: "/for-home-addition-remodel",
+        url: "/services/for-home-addition-remodel",
       },
-      { id: 1147, title: "ADU", url: "/for-adu-or-jadu" },
-      { id: 1148, title: "Retaining Wall", url: "/for-retaining-wall" },
+      { id: 1147, title: "ADU", url: "/services/for-adu-or-jadu" },
+      {
+        id: 1148,
+        title: "Retaining Wall",
+        url: "/services/for-retaining-wall",
+      },
       {
         id: 1149,
         title: "Load Bearing Wall Removal",
-        url: "/for-load-bearing-wall-removal",
+        url: "/services/for-load-bearing-wall-removal",
       },
       {
         id: 1150,
         title: "Deck, Patio & Porch",
-        url: "/for-deck-patio-porch-gazebo",
+        url: "/services/for-deck-patio-porch-gazebo",
       },
       {
         id: 1151,
         title: "Foundation Design",
-        url: "/seismic-retrofit-and-foundations",
+        url: "/services/seismic-retrofit-and-foundations",
       },
       {
         id: 1152,
         title: "Construction Administration",
-        url: "/for-construction-administration",
+        url: "/services/for-construction-administration",
       },
       { id: 4961, title: "Civil Engineering", url: "/civil-engineers" },
     ],
@@ -55,28 +63,36 @@ const HEADER_MENU = [
       {
         id: 3860,
         title: "Ground Up Construction",
-        url: "/for-ground-up-construction",
+        url: "/commercial-services/for-ground-up-construction",
       },
-      { id: 3861, title: "Tenant Improvement", url: "/for-tenant-improvement" },
+      {
+        id: 3861,
+        title: "Tenant Improvement",
+        url: "/commercial-services/for-tenant-improvement",
+      },
       {
         id: 3862,
         title: "Mixed-Use Building",
-        url: "/for-mixed-use-buildings",
+        url: "/commercial-services/for-mixed-use-buildings",
       },
       {
         id: 3863,
         title: "Apartment/Townhouse",
-        url: "/for-apartment-buildings",
+        url: "/commercial-services/for-apartment-buildings",
       },
       {
         id: 3864,
         title: "Equipment Anchorage",
-        url: "/for-equipment-anchorage",
+        url: "/commercial-services/for-equipment-anchorage",
       },
-      { id: 3865, title: "Warehouse", url: "/warehouse" },
-      { id: 3866, title: "Office", url: "/for-offices" },
-      { id: 3867, title: "Retail", url: "/for-retails" },
-      { id: 3868, title: "Data Center", url: "/for-data-centers" },
+      { id: 3865, title: "Warehouse", url: "/commercial-services/warehouse" },
+      { id: 3866, title: "Office", url: "/commercial-services/for-offices" },
+      { id: 3867, title: "Retail", url: "/commercial-services/for-retails" },
+      {
+        id: 3868,
+        title: "Data Center",
+        url: "/commercial-services/for-data-centers",
+      },
     ],
   },
   {
@@ -105,6 +121,7 @@ const HEADER_MENU = [
 
 const LOGO_URL = "/images/new-logo.svg";
 const NAV_BUTTON_LABEL = "Contact Us";
+const STATE_BASE = "/california-structural-engineers";
 
 // California-specific header (header-with-state-cal.php)
 // Logo always links to /california-structural-engineers
@@ -124,11 +141,16 @@ export function HeaderWithStateCal() {
     setMobileDropdowns({});
   };
 
+  const resolveStateUrl = (url: string) => {
+    if (!url || url === "#" || url.startsWith("http")) return url;
+    return `${STATE_BASE}${url}`;
+  };
+
   return (
     <header className="o-header w-100">
       <div className="container">
         <div className="d-flex align-items-center">
-          <Link href="/california-structural-engineers" className="o-logo">
+          <Link href={STATE_BASE} className="o-logo">
             <Image
               src={LOGO_URL}
               alt="ProStruct Engineering Logo"
@@ -143,12 +165,14 @@ export function HeaderWithStateCal() {
               <ul>
                 {HEADER_MENU.map((item) => (
                   <li key={item.id} className={item.classes?.join(" ")}>
-                    <Link href={item.url}>{item.title}</Link>
+                    <Link href={resolveStateUrl(item.url)}>{item.title}</Link>
                     {item.children && (
                       <ul className="sub-menu">
                         {item.children.map((child) => (
                           <li key={child.id}>
-                            <Link href={child.url}>{child.title}</Link>
+                            <Link href={resolveStateUrl(child.url)}>
+                              {child.title}
+                            </Link>
                           </li>
                         ))}
                       </ul>
@@ -202,7 +226,10 @@ export function HeaderWithStateCal() {
                     return (
                       <li key={item.id} className={item.classes?.join(" ")}>
                         <div className="c-mobile-menu__item">
-                          <Link href={item.url} onClick={closeMobileMenu}>
+                          <Link
+                            href={resolveStateUrl(item.url)}
+                            onClick={closeMobileMenu}
+                          >
                             {item.title}
                           </Link>
                           {hasChildren && (
@@ -219,7 +246,7 @@ export function HeaderWithStateCal() {
                             {item.children!.map((child) => (
                               <li key={child.id}>
                                 <Link
-                                  href={child.url}
+                                  href={resolveStateUrl(child.url)}
                                   onClick={closeMobileMenu}
                                 >
                                   {child.title}

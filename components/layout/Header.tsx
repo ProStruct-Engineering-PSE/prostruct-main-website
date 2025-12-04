@@ -6,42 +6,57 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useModal } from "@/components/shared/ModalProvider";
 
+const STRUCTURAL_BASE = "/structural-engineers";
+const COMMERCIAL_BASE = "/commercial-structural-engineers";
+
 // Default header menu (from header.php)
 const HEADER_MENU = [
   {
     id: 1144,
     title: "Residential",
-    url: "/services",
+    url: `${STRUCTURAL_BASE}/services`,
     classes: ["residential-menu"],
     children: [
-      { id: 1245, title: "Services", url: "/services" },
-      { id: 1145, title: "New Custom Home", url: "/for-new-custom-home" },
+      { id: 1245, title: "Services", url: `${STRUCTURAL_BASE}/services` },
+      {
+        id: 1145,
+        title: "New Custom Home",
+        url: `${STRUCTURAL_BASE}/services/for-new-custom-home`,
+      },
       {
         id: 1146,
         title: "Home Addition/Remodel",
-        url: "/for-home-addition-remodel",
+        url: `${STRUCTURAL_BASE}/services/for-home-addition-remodel`,
       },
-      { id: 1147, title: "ADU", url: "/for-adu-or-jadu" },
-      { id: 1148, title: "Retaining Wall", url: "/for-retaining-wall" },
+      {
+        id: 1147,
+        title: "ADU",
+        url: `${STRUCTURAL_BASE}/services/for-adu-or-jadu`,
+      },
+      {
+        id: 1148,
+        title: "Retaining Wall",
+        url: `${STRUCTURAL_BASE}/services/for-retaining-wall`,
+      },
       {
         id: 1149,
         title: "Load Bearing Wall Removal",
-        url: "/for-load-bearing-wall-removal",
+        url: `${STRUCTURAL_BASE}/services/for-load-bearing-wall-removal`,
       },
       {
         id: 1150,
         title: "Deck, Patio & Porch",
-        url: "/for-deck-patio-porch-gazebo",
+        url: `${STRUCTURAL_BASE}/services/for-deck-patio-porch-gazebo`,
       },
       {
         id: 1151,
         title: "Foundation Design",
-        url: "/seismic-retrofit-and-foundations",
+        url: `${STRUCTURAL_BASE}/services/seismic-retrofit-and-foundations`,
       },
       {
         id: 1152,
         title: "Construction Administration",
-        url: "/for-construction-administration",
+        url: `${STRUCTURAL_BASE}/services/for-construction-administration`,
       },
       { id: 4961, title: "Civil Engineering", url: "/civil-engineers" },
     ],
@@ -49,35 +64,47 @@ const HEADER_MENU = [
   {
     id: 3008,
     title: "Commercial",
-    url: "/commercial-services",
+    url: `${STRUCTURAL_BASE}/commercial-services`,
     classes: ["commercial-menu"],
     children: [
-      { id: 3921, title: "Services", url: "/commercial-services" },
+      {
+        id: 3921,
+        title: "Services",
+        url: `${STRUCTURAL_BASE}/commercial-services`,
+      },
       {
         id: 3860,
         title: "Ground Up Construction",
-        url: "/for-ground-up-construction",
+        url: `${COMMERCIAL_BASE}/for-ground-up-construction`,
       },
-      { id: 3861, title: "Tenant Improvement", url: "/for-tenant-improvement" },
+      {
+        id: 3861,
+        title: "Tenant Improvement",
+        url: `${COMMERCIAL_BASE}/for-tenant-improvement`,
+      },
       {
         id: 3862,
         title: "Mixed-Use Building",
-        url: "/for-mixed-use-buildings",
+        url: `${COMMERCIAL_BASE}/for-mixed-use-buildings`,
       },
       {
         id: 3863,
         title: "Apartment/Townhouse",
-        url: "/for-apartment-buildings",
+        url: `${COMMERCIAL_BASE}/for-apartment-buildings`,
       },
       {
         id: 3864,
         title: "Equipment Anchorage",
-        url: "/for-equipment-anchorage",
+        url: `${COMMERCIAL_BASE}/for-equipment-anchorage`,
       },
-      { id: 3865, title: "Warehouse", url: "/warehouse" },
-      { id: 3866, title: "Office", url: "/for-offices" },
-      { id: 3867, title: "Retail", url: "/for-retails" },
-      { id: 3868, title: "Data Center", url: "/for-data-centers" },
+      { id: 3865, title: "Warehouse", url: `${COMMERCIAL_BASE}/warehouse` },
+      { id: 3866, title: "Office", url: `${COMMERCIAL_BASE}/for-offices` },
+      { id: 3867, title: "Retail", url: `${COMMERCIAL_BASE}/for-retails` },
+      {
+        id: 3868,
+        title: "Data Center",
+        url: `${COMMERCIAL_BASE}/for-data-centers`,
+      },
     ],
   },
   {
@@ -98,7 +125,7 @@ const HEADER_MENU = [
     url: "#",
     classes: ["reviews-menu-icon"],
     children: [
-      { id: 1858, title: "Reviews", url: "/reviews" },
+      { id: 1858, title: "Reviews", url: `${STRUCTURAL_BASE}/reviews` },
       { id: 5336, title: "Permit Guarantee", url: "/permit-guarantee" },
     ],
   },
