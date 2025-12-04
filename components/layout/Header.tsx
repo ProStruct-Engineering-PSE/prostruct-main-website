@@ -256,7 +256,7 @@ export function Header() {
                       {item.title}
                     </Link>
                     {item.children && (
-                      <ul>
+                      <ul className="sub-menu">
                         {item.children.map((child) => (
                           <li key={child.id}>
                             <Link
