@@ -249,16 +249,21 @@ body.page-id-231 section.c-project-type-sec.w-100.lazyloaded {
 .structural_slidedown,
 .structural_slidedup {
   width: 60px;
-  height: 56px;
   border-radius: 6px;
   background-color: #006a4e;
   color: #fff !important;
   text-align: center;
   display: block;
-  margin: 15px auto 0 auto;
-  padding: 16px 0;
+  padding: 16px;
   z-index: 9;
   cursor: pointer;
+}
+
+.structural_slidedown i,
+.structural_slidedup i,
+.s-what-we-item .icon-wrapper svg {
+  display: block;
+  margin: 0 auto;
 }
 
 .str_sec {
@@ -289,6 +294,16 @@ body.page-id-231 section.c-project-type-sec.w-100.lazyloaded {
   box-shadow: 20px 48px 66px 0px #0052a612;
   padding: 20px;
   margin-bottom: 22px;
+  overflow: hidden;
+  transition: max-height 0.4s ease, opacity 0.4s ease;
+  max-height: 0;
+  opacity: 0;
+}
+
+.st_slide.is-open {
+  display: block;
+  max-height: 1200px;
+  opacity: 1;
 }
 
 .st_slide h4 {
@@ -493,14 +508,28 @@ body.page-template-adu-page .s-what-we-do:before {
   -ms-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
-.adu_types .all_lists .each_list .heading.active:before {
+.adu_types .all_lists .each_list.active .heading:before {
   transform: rotate(180deg);
 }
 .adu_types .all_lists .each_list .content {
   width: 100%;
-  display: none;
   margin: 0;
   padding: 0 15px 0 40px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  opacity: 0;
+}
+.adu_types .all_lists .each_list .heading {
+  border-bottom: 1px solid #e5e5e5;
+}
+.adu_types .all_lists .each_list.active .heading {
+  border-color: #006a4e;
+  color: #006a4e;
+}
+.adu_types .all_lists .each_list.active .content {
+  max-height: 400px;
+  opacity: 1;
 }
 .adu_types .all_lists .each_list .content p {
   font-family: "Rubik";

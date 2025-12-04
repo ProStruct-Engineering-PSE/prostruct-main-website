@@ -34,7 +34,9 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
         <div className="c-banner-caption">
           <div className="container d-flex align-items-center">
             <div className="c-banner-caption__inner">
-              {isMobile ? parse(data.hero.mobileHtml) : parse(data.hero.desktopHtml)}
+              {isMobile
+                ? parse(data.hero.mobileHtml)
+                : parse(data.hero.desktopHtml)}
             </div>
           </div>
         </div>
@@ -127,7 +129,8 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
             <div className="col-lg-6">
               {isMobile ? (
                 <button onClick={openModal} className="btn get-free-quote-btn">
-                  Get Your Free Quote <i className="fa-solid fa-chevron-right" />
+                  Get Your Free Quote{" "}
+                  <i className="fa-solid fa-chevron-right" />
                 </button>
               ) : (
                 <ContactForm />
@@ -145,10 +148,10 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
             style={{ backgroundImage: `url(${data.aboutBackgroundImage})` }}
           >
             <h2>{data.aboutHeading}</h2>
-            <div className="c-structure-service-desktop">
+            <div className="c-structure-service-desktop text-white">
               {parse(data.aboutDesktopHtml)}
             </div>
-            <div className="c-structure-service-mobile">
+            <div className="c-structure-service-mobile text-white">
               {parse(data.aboutMobileHtml)}
             </div>
           </div>
@@ -177,7 +180,10 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
       </section>
 
       {/* Project Types */}
-      <section className="c-project-type-sec w-100" style={{ backgroundImage: "url('/images/project-bg.svg')" }}>
+      <section
+        className="c-project-type-sec w-100"
+        style={{ backgroundImage: "url('/images/project-bg.svg')" }}
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6 mb-4 mb-lg-0">
@@ -252,7 +258,9 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
                         width={step.image.width}
                         height={step.image.height}
                       />
-                      <span className="c-single-work-process__number">{count}</span>
+                      <span className="c-single-work-process__number">
+                        {count}
+                      </span>
                     </figure>
                     <h6>{parse(step.detailsHtml)}</h6>
                   </div>
@@ -284,4 +292,3 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
     </>
   );
 }
-
