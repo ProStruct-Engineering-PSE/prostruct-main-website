@@ -26,8 +26,7 @@ export default function HomePage() {
       <section
         className="c_paralax_img"
         style={{
-          backgroundImage:
-            "url(https://prostructengineering.com/wp-content/uploads/2023/03/Footer.jpg)",
+          backgroundImage: "url(/images/Footer.jpg)",
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundAttachment: "fixed",
