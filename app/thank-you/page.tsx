@@ -1,31 +1,12 @@
+import { CalendlyPage } from "@/components/pages/CalendlyPage";
+
 export default function Page() {
   return (
-    <div className="min-h-screen bg-gray-50">
-      <div className="container mx-auto px-4 py-8">
-        <div className="max-w-4xl mx-auto bg-white rounded-xl shadow-lg p-8">
-          <div className="mb-6 pb-4 border-b">
-            <span className="text-sm text-gray-500">Page ID: 183</span>
-          </div>
-          
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            
-          </h1>
-          
-          <div className="space-y-4 text-gray-600">
-            <p><strong>Slug:</strong> thank-you</p>
-            <p><strong>Template:</strong> Default</p>
-            <p><strong>Last Modified:</strong> 20/7/2025</p>
-            <p><strong>Original URL:</strong> <a href="https://prostructengineering.com/thank-you/" target="_blank" rel="noopener" className="text-blue-600 hover:underline">https://prostructengineering.com/thank-you/</a></p>
-          </div>
-          
-          <div className="mt-8 p-4 bg-blue-50 rounded-lg">
-            <p className="text-sm text-blue-800">
-              This page was automatically generated from WordPress. 
-              Content will be added in the migration process.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <CalendlyPage
+      title="Thank You"
+      description="We’ve received your request. Pick a time below to finalize your consultation."
+      calendlyUrl="https://calendly.com/d/5kk-pjx-2wn?hide_gdpr_banner=1"
+      gtmId="GTM-NFSTBLL"
+    />
   );
 }
