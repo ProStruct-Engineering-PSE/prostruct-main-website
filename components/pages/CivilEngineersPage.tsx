@@ -163,10 +163,14 @@ export function CivilEngineersPage({ data }: CivilEngineersPageProps) {
         <div className="container pt-5">
           <div className="row g-4">
             {data.services.map((service) => (
-              <div key={service.heading} className="col-lg-6">
-                <div className="civil-service-card">
-                  <h3>{service.heading}</h3>
-                  <p>{service.body}</p>
+              <div key={service.heading} className="col-12">
+                <div className="border-b border-[#e3e8ef] pb-8 last:border-none last:pb-0">
+                  <h3 className="text-3xl md:text-[2.6rem] font-bold leading-tight text-[#0b2230]">
+                    {service.heading}
+                  </h3>
+                  <p className="mt-3 text-base md:text-lg text-[#1c2434] leading-relaxed">
+                    {service.body}
+                  </p>
                 </div>
               </div>
             ))}
