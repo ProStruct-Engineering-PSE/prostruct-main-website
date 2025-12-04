@@ -12,7 +12,7 @@ const HEADER_MENU = [
     id: 1144,
     title: "Residential",
     url: "/services",
-    classes: ["about-menu"],
+    classes: ["residential-menu"],
     children: [
       { id: 1245, title: "Services", url: "/services" },
       { id: 1145, title: "New Custom Home", url: "/for-new-custom-home" },
@@ -50,7 +50,7 @@ const HEADER_MENU = [
     id: 3008,
     title: "Commercial",
     url: "/commercial-services",
-    classes: ["about-menu"],
+    classes: ["commercial-menu"],
     children: [
       { id: 3921, title: "Services", url: "/commercial-services" },
       {
@@ -112,6 +112,18 @@ export function Header() {
   const pathname = usePathname();
   const { openModal } = useModal();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [mobileDropdowns, setMobileDropdowns] = useState<
+    Record<number, boolean>
+  >({});
+
+  const toggleMobileDropdown = (id: number) => {
+    setMobileDropdowns((prev) => ({ ...prev, [id]: !prev[id] }));
+  };
+
+  const closeMobileMenu = () => {
+    setIsMobileMenuOpen(false);
+    setMobileDropdowns({});
+  };
 
   // Determine logo link based on pathname (from header.php logic)
   const getLogoLink = () => {
@@ -225,11 +237,7 @@ export function Header() {
           style={{ visibility: "visible" }}
         >
           <div className="offcanvas-header">
-            <Link
-              href="/"
-              className="o-logo"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
+            <Link href="/" className="o-logo" onClick={closeMobileMenu}>
               <Image
                 src={LOGO_URL}
                 alt="ProStruct Engineering Logo"
@@ -240,37 +248,46 @@ export function Header() {
             <button
               type="button"
               className="btn-close text-reset"
-              onClick={() => setIsMobileMenuOpen(false)}
+              onClick={closeMobileMenu}
               aria-label="Close"
             ></button>
           </div>
           <div className="offcanvas-body">
             <div className="c-mobile-menu">
               <ul>
-                {HEADER_MENU.map((item) => (
-                  <li key={item.id} className={item.classes?.join(" ")}>
-                    <Link
-                      href={item.url}
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      {item.title}
-                    </Link>
-                    {item.children && (
-                      <ul className="sub-menu">
-                        {item.children.map((child) => (
-                          <li key={child.id}>
-                            <Link
-                              href={child.url}
-                              onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                              {child.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                ))}
+                {HEADER_MENU.map((item) => {
+                  const hasChildren = Boolean(item.children?.length);
+                  const isOpen = !!mobileDropdowns[item.id];
+
+                  return (
+                    <li key={item.id} className={item.classes?.join(" ")}>
+                      <div className="c-mobile-menu__item">
+                        <Link href={item.url} onClick={closeMobileMenu}>
+                          {item.title}
+                        </Link>
+                        {hasChildren && (
+                          <button
+                            type="button"
+                            className={`arw-nav ${isOpen ? "actv" : ""}`}
+                            aria-expanded={isOpen}
+                            onClick={() => toggleMobileDropdown(item.id)}
+                          ></button>
+                        )}
+                      </div>
+                      {hasChildren && (
+                        <ul className={isOpen ? "show" : ""}>
+                          {item.children!.map((child) => (
+                            <li key={child.id}>
+                              <Link href={child.url} onClick={closeMobileMenu}>
+                                {child.title}
+                              </Link>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           </div>
@@ -281,7 +298,7 @@ export function Header() {
       {isMobileMenuOpen && (
         <div
           className="offcanvas-backdrop fade show"
-          onClick={() => setIsMobileMenuOpen(false)}
+          onClick={closeMobileMenu}
         ></div>
       )}
 

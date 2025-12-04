@@ -110,29 +110,38 @@ body.home .o-header {
   z-index: 9;
   padding-top: 15px;
   transition: all ease-in-out 0.3s;
+  background: #ffffff;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
 }
 
-.c-nav-sup ul li:hover ul.sub-menu {
+.c-nav-sup ul > li:hover > .sub-menu {
   opacity: 1;
   display: block;
-  transition: all ease-in-out 0.3s;
+  pointer-events: auto;
+  background: #006a4e;
+}
+
+.c-nav-sup ul.sub-menu.show {
+  opacity: 1;
+  display: block;
 }
 
 .c-nav-sup ul.sub-menu li {
   display: block;
-  background-color: #0c7156;
   margin: 0 !important;
   padding: 0 !important;
 }
 
 .c-nav-sup ul.sub-menu li a {
-  padding: 15px 10px !important;
+  padding: 12px 16px !important;
   display: block;
+  color: #1d2531;
+  text-transform: none;
 }
 
 .c-nav-sup ul.sub-menu li:hover a,
 .c-nav-sup ul.sub-menu li.current-menu-item a {
-  color: #89d6c2;
+  color: #006a4e;
 }
 
 /*.c-nav-sup ul ul{
@@ -271,6 +280,13 @@ body.home .o-header {
     margin: 10px 0;
   }
 
+  .c-mobile-menu__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
   .c-mobile-menu ul > li a {
     font-weight: 600;
     font-size: 15px;
@@ -309,17 +325,20 @@ body.home .o-header {
     padding: 0;
   }
 
+  .c-mobile-menu ul > li ul.show {
+    display: block;
+  }
+
   .c-mobile-menu ul li .arw-nav {
     width: 40px;
     height: 40px;
     background-color: #fff;
     border-radius: 4px;
-    position: absolute;
-    right: 20px;
-    top: 5px;
-    z-index: 999;
+    border: none;
+    position: relative;
+    z-index: 9;
     cursor: pointer;
-    background-image: url(https://prostructengineering.com/wp-content/uploads/2023/06/arw.png);
+    background-image: url(/images/arw.png);
     background-repeat: no-repeat;
     background-size: 10px;
     background-position: center;
@@ -327,6 +346,7 @@ body.home .o-header {
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    margin-right: 20px;
   }
   .c-mobile-menu ul li .arw-nav.actv {
     -webkit-transform: rotate(180deg);
@@ -340,7 +360,7 @@ body.home .o-header {
   }
 
   .o-header .btn-close {
-    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/cross.png);
+    background: url(/images/cross.png);
     opacity: 1;
     background-size: 15px;
     background-repeat: no-repeat;
@@ -363,26 +383,30 @@ body.home .o-header {
   }
 
   .service-menu-1 a {
-    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/service-icon.png)
-      no-repeat center left 25px;
+    background: url(/images/service-icon.png) no-repeat center left 25px;
   }
 
   .reviews-menu-icon a {
-    background: url(https://prostructengineering.com/wp-content/uploads/2024/05/review-icon.png)
-      no-repeat center left 25px;
+    background: url(/images/review-icon.png) no-repeat center left 25px;
+  }
+
+  .commercial-menu a {
+    background: url(/images/c.png) no-repeat center left 25px;
+  }
+  .residential-menu a {
+    background: url(/images/h.png) no-repeat center left 25px;
   }
 
   .about-menu a {
-    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/about-icon.png)
-      no-repeat center left 25px;
+    background: url(/images/about-icon.png) no-repeat center left 25px;
   }
   .blog-menu-updated a {
-    background: url(https://prostructengineering.com/wp-content/uploads/2023/12/blog-inner-e1703626965779.png)
-      no-repeat center left 25px;
+    background: url(/images/blog-inner-e1703626965779.png) no-repeat center left
+      25px;
   }
   .sub-menu li a {
-    background: url(https://prostructengineering.com/wp-content/uploads/2023/06/arrow-angle-pointing-to-right.png)
-      no-repeat center left 36px;
+    background: url(/images/arrow-angle-pointing-to-right.png) no-repeat center
+      left 36px;
     background-size: 10px;
   }
 
